@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/csv.jar"/>
+	<classpathentry kind="lib" path="lib/forms-1.0.5.jar"/>
+	<classpathentry kind="lib" path="lib/itext-1.4.8.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.8.jar"/>
+	<classpathentry kind="lib" path="lib/junit.jar"/>
+	<classpathentry kind="lib" path="lib/servlet.jar"/>
+	<classpathentry kind="lib" path="lib/svnant.jar"/>
+	<classpathentry kind="lib" path="lib/svnClientAdapter.jar"/>
+	<classpathentry kind="lib" path="lib/svnjavahl.jar"/>
+	<classpathentry kind="lib" path="lib/db2jcc4.jar"/>
+	<classpathentry kind="lib" path="lib/derby.jar"/>
+	<classpathentry kind="lib" path="lib/h2-1.2.147.jar"/>
+	<classpathentry kind="lib" path="lib/hsqldb.jar"/>
+	<classpathentry kind="lib" path="lib/iText-5.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/jsyntaxpane-0.9.5-b29.jar"/>
+	<classpathentry kind="lib" path="lib/jtds-1.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.6-20091214.jar"/>
+	<classpathentry kind="lib" path="lib/sqlitejdbc-v056-pure.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

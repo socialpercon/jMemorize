@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="ASCII"?>
+<options:CycleExplorerData xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:options="options.xmi">
+  <options interactive="false" level="-1" showScope="InDiagram" properties="ModelFrozen=true;wireOptions=4;Product=eDepend;ComputedContent=true;dependencyFilter=Standard::Derive,Soyatec::Implement,Standard::Instantiate,Standard::Create,Standard::Call,Standard::Send,Soyatec::Access,Soyatec::Import,;displayOptions=1"/>
+  <cycleSets>
+    <groups name="Cycle-1  (2 elements)" size="2">
+      <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Settings</ids>
+      <ids>jmemorize.core/Settings-Soyatec::Access->jmemorize.core/Main</ids>
+    </groups>
+    <groups name="Cycle-2  (2 elements)" size="2">
+      <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/ImageRepository</ids>
+      <ids>jmemorize.core/ImageRepository-Standard::Call->jmemorize.core/Main</ids>
+    </groups>
+    <groups name="Cycle-3  (9 elements and 5 sub cycles)" size="9">
+      <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+      <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+      <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+      <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+      <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+      <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+      <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+      <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+      <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+      <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+      <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+      <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+      <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+      <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+      <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+      <subGroups name="Cycle-3.1  (8 elements and 4 sub cycles)" size="8">
+        <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+        <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+        <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+        <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+        <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+        <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+        <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+        <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+        <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+        <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+        <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+        <subGroups name="Cycle-3.1.1  (7 elements and 2 sub cycles)" size="7">
+          <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+          <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+          <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+          <subGroups name="Cycle-3.1.1.1  (6 elements and 3 sub cycles)" size="6">
+            <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+            <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+            <subGroups name="Cycle-3.1.1.1.1  (5 elements and 1 sub cycles)" size="5">
+              <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+              <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+              <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+              <subGroups name="Cycle-3.1.1.1.1.1  (4 elements)" size="4">
+                <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+                <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+                <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+                <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+              </subGroups>
+            </subGroups>
+            <subGroups name="Cycle-3.1.1.1.2  (5 elements)" size="5">
+              <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+              <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+              <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+            </subGroups>
+            <subGroups name="Cycle-3.1.1.1.3  (5 elements)" size="5">
+              <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+              <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+              <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+              <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+            </subGroups>
+          </subGroups>
+          <subGroups name="Cycle-3.1.1.2  (6 elements)" size="6">
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+            <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+          </subGroups>
+        </subGroups>
+        <subGroups name="Cycle-3.1.2  (7 elements and 2 sub cycles)" size="7">
+          <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+          <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+          <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+          <subGroups name="Cycle-3.1.2.1  (6 elements)" size="6">
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+            <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+          </subGroups>
+          <subGroups name="Cycle-3.1.2.2  (6 elements and 1 sub cycles)" size="6">
+            <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+            <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+            <subGroups name="Cycle-3.1.2.2.1  (5 elements and 2 sub cycles)" size="5">
+              <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+              <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+              <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+              <subGroups name="Cycle-3.1.2.2.1.1  (4 elements and 2 sub cycles)" size="4">
+                <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+                <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Category</ids>
+                <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Category</ids>
+                <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+                <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+                <subGroups name="Cycle-3.1.2.2.1.1.1  (3 elements)" size="3">
+                  <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+                  <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Card</ids>
+                  <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+                  <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+                </subGroups>
+                <subGroups name="Cycle-3.1.2.2.1.1.2  (3 elements)" size="3">
+                  <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Category</ids>
+                  <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Category</ids>
+                  <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+                  <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+                  <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+                </subGroups>
+              </subGroups>
+              <subGroups name="Cycle-3.1.2.2.1.2  (4 elements)" size="4">
+                <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+                <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+                <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+                <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+                <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+                <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+              </subGroups>
+            </subGroups>
+          </subGroups>
+        </subGroups>
+        <subGroups name="Cycle-3.1.3  (7 elements)" size="7">
+          <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+          <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+          <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+        </subGroups>
+        <subGroups name="Cycle-3.1.4  (7 elements and 1 sub cycles)" size="7">
+          <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+          <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+          <subGroups name="Cycle-3.1.4.1  (6 elements)" size="6">
+            <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+            <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+          </subGroups>
+        </subGroups>
+      </subGroups>
+      <subGroups name="Cycle-3.2  (8 elements and 4 sub cycles)" size="8">
+        <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+        <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+        <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+        <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+        <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+        <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+        <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+        <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+        <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+        <subGroups name="Cycle-3.2.1  (7 elements and 4 sub cycles)" size="7">
+          <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+          <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+          <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+          <subGroups name="Cycle-3.2.1.1  (6 elements and 3 sub cycles)" size="6">
+            <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+            <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+            <subGroups name="Cycle-3.2.1.1.1  (5 elements and 1 sub cycles)" size="5">
+              <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+              <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+              <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+              <subGroups name="Cycle-3.2.1.1.1.1  (4 elements)" size="4">
+                <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+                <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+              </subGroups>
+            </subGroups>
+            <subGroups name="Cycle-3.2.1.1.2  (5 elements)" size="5">
+              <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+              <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+            </subGroups>
+            <subGroups name="Cycle-3.2.1.1.3  (5 elements)" size="5">
+              <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+              <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+              <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+            </subGroups>
+          </subGroups>
+          <subGroups name="Cycle-3.2.1.2  (6 elements and 2 sub cycles)" size="6">
+            <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+            <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+            <subGroups name="Cycle-3.2.1.2.1  (5 elements and 2 sub cycles)" size="5">
+              <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+              <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+              <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+              <subGroups name="Cycle-3.2.1.2.1.1  (4 elements and 1 sub cycles)" size="4">
+                <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+                <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+                <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+                <subGroups name="Cycle-3.2.1.2.1.1.1  (3 elements and 1 sub cycles)" size="3">
+                  <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+                  <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+                  <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+                  <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+                  <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+                  <subGroups name="Cycle-3.2.1.2.1.1.1.1  (2 elements)" size="2">
+                    <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Card</ids>
+                    <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+                  </subGroups>
+                </subGroups>
+              </subGroups>
+              <subGroups name="Cycle-3.2.1.2.1.2  (4 elements)" size="4">
+                <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+                <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+              </subGroups>
+            </subGroups>
+            <subGroups name="Cycle-3.2.1.2.2  (5 elements)" size="5">
+              <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+              <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+              <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+              <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+            </subGroups>
+          </subGroups>
+          <subGroups name="Cycle-3.2.1.3  (6 elements)" size="6">
+            <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+          </subGroups>
+          <subGroups name="Cycle-3.2.1.4  (6 elements)" size="6">
+            <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+            <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+          </subGroups>
+        </subGroups>
+        <subGroups name="Cycle-3.2.2  (7 elements and 1 sub cycles)" size="7">
+          <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+          <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+          <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+          <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+          <subGroups name="Cycle-3.2.2.1  (6 elements and 2 sub cycles)" size="6">
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+            <subGroups name="Cycle-3.2.2.1.1  (5 elements and 1 sub cycles)" size="5">
+              <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+              <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+              <subGroups name="Cycle-3.2.2.1.1.1  (4 elements)" size="4">
+                <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+                <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+                <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+                <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+              </subGroups>
+            </subGroups>
+            <subGroups name="Cycle-3.2.2.1.2  (5 elements and 1 sub cycles)" size="5">
+              <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+              <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+              <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+              <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+              <subGroups name="Cycle-3.2.2.1.2.1  (4 elements and 2 sub cycles)" size="4">
+                <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Category</ids>
+                <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Category</ids>
+                <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+                <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+                <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+                <subGroups name="Cycle-3.2.2.1.2.1.1  (3 elements)" size="3">
+                  <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+                  <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+                  <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+                </subGroups>
+                <subGroups name="Cycle-3.2.2.1.2.1.2  (3 elements and 2 sub cycles)" size="3">
+                  <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+                  <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+                  <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+                  <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/Category</ids>
+                  <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Category</ids>
+                  <subGroups name="Cycle-3.2.2.1.2.1.2.1  (2 elements)" size="2">
+                    <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+                    <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+                    <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Category</ids>
+                  </subGroups>
+                  <subGroups name="Cycle-3.2.2.1.2.1.2.2  (2 elements)" size="2">
+                    <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+                    <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+                    <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/Category</ids>
+                    <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Category</ids>
+                  </subGroups>
+                </subGroups>
+              </subGroups>
+            </subGroups>
+          </subGroups>
+        </subGroups>
+        <subGroups name="Cycle-3.2.3  (7 elements)" size="7">
+          <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+          <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+          <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+          <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+        </subGroups>
+        <subGroups name="Cycle-3.2.4  (7 elements)" size="7">
+          <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+          <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+          <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+          <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+        </subGroups>
+      </subGroups>
+      <subGroups name="Cycle-3.3  (8 elements and 2 sub cycles)" size="8">
+        <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+        <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+        <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+        <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+        <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+        <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+        <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+        <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+        <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+        <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+        <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+        <subGroups name="Cycle-3.3.1  (7 elements and 3 sub cycles)" size="7">
+          <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+          <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+          <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+          <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+          <subGroups name="Cycle-3.3.1.1  (6 elements and 1 sub cycles)" size="6">
+            <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+            <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+            <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+            <subGroups name="Cycle-3.3.1.1.1  (5 elements)" size="5">
+              <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+              <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+              <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+            </subGroups>
+          </subGroups>
+          <subGroups name="Cycle-3.3.1.2  (6 elements and 1 sub cycles)" size="6">
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+            <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+            <subGroups name="Cycle-3.3.1.2.1  (5 elements and 1 sub cycles)" size="5">
+              <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+              <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+              <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+              <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+              <subGroups name="Cycle-3.3.1.2.1.1  (4 elements)" size="4">
+                <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+                <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson</ids>
+                <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+                <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+                <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+              </subGroups>
+            </subGroups>
+          </subGroups>
+          <subGroups name="Cycle-3.3.1.3  (6 elements)" size="6">
+            <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+            <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+          </subGroups>
+        </subGroups>
+        <subGroups name="Cycle-3.3.2  (7 elements and 1 sub cycles)" size="7">
+          <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+          <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+          <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+          <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+          <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+          <subGroups name="Cycle-3.3.2.1  (6 elements and 1 sub cycles)" size="6">
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+            <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+            <subGroups name="Cycle-3.3.2.1.1  (5 elements)" size="5">
+              <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+              <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+              <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+              <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+              <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card</ids>
+              <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/Main</ids>
+            </subGroups>
+          </subGroups>
+        </subGroups>
+      </subGroups>
+      <subGroups name="Cycle-3.4  (8 elements and 1 sub cycles)" size="8">
+        <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+        <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+        <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+        <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+        <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+        <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+        <ids>jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category</ids>
+        <ids>jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver</ids>
+        <ids>jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver</ids>
+        <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+        <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+        <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+        <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+        <subGroups name="Cycle-3.4.1  (7 elements and 1 sub cycles)" size="7">
+          <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+          <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+          <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+          <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+          <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+          <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+          <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+          <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+          <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+          <subGroups name="Cycle-3.4.1.1  (6 elements)" size="6">
+            <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+            <ids>jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+            <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+            <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+            <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+            <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/FormattedText</ids>
+            <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/FormattedText</ids>
+          </subGroups>
+        </subGroups>
+      </subGroups>
+      <subGroups name="Cycle-3.5  (8 elements)" size="8">
+        <ids>jmemorize.core/CardSide-Standard::Call->jmemorize.core/FormattedText</ids>
+        <ids>jmemorize.core/CardSide-Soyatec::Import->jmemorize.core/FormattedText</ids>
+        <ids>jmemorize.core/FormattedText-Standard::Call->jmemorize.core/Main</ids>
+        <ids>jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider</ids>
+        <ids>jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver</ids>
+        <ids>jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson</ids>
+        <ids>jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver</ids>
+        <ids>jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card</ids>
+        <ids>jmemorize.core/Card-Soyatec::Import->jmemorize.core/CardSide</ids>
+        <ids>jmemorize.core/Card-Standard::Call->jmemorize.core/CardSide</ids>
+        <ids>jmemorize.core/Card-Standard::Instantiate->jmemorize.core/CardSide</ids>
+      </subGroups>
+    </groups>
+  </cycleSets>
+</options:CycleExplorerData>

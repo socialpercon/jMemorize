@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="learn" size="1253,2148" id="jmemorize.core.learn" metadata="uml2-1.0" initialized="true" scrolledY="219" tag="10" key="32303037303533312D3130206A4D656D6F72697A65">
+  <children xsi:type="editmodel:ClassEditModel" name="LearnHistory" location="903,50" size="218,845" id="jmemorize.core.learn/LearnHistory">
+    <children xsi:type="editmodel:CompartmentEditModel" size="195,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="dATE_COMP" id="jmemorize.core.learn/LearnHistory#dATE_COMP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mONTH_COMP" id="jmemorize.core.learn/LearnHistory#mONTH_COMP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sIMPLE_COMP" id="jmemorize.core.learn/LearnHistory#sIMPLE_COMP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wEEK_COMP" id="jmemorize.core.learn/LearnHistory#wEEK_COMP"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="yEAR_COMP" id="jmemorize.core.learn/LearnHistory#yEAR_COMP"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,306">
+      <children xsi:type="editmodel:MethodEditModel" name="LearnHistory" id="jmemorize.core.learn/LearnHistory#LearnHistory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="LearnHistory" id="jmemorize.core.learn/LearnHistory#LearnHistory(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addSummary" id="jmemorize.core.learn/LearnHistory#addSummary(Ljava.util.Date;Ljava.util.Date;IIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="jmemorize.core.learn/LearnHistory#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAverage" id="jmemorize.core.learn/LearnHistory#getAverage()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLastSummary" id="jmemorize.core.learn/LearnHistory#getLastSummary()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSessionsSummary" id="jmemorize.core.learn/LearnHistory#getSessionsSummary()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSummaries" id="jmemorize.core.learn/LearnHistory#getSummaries(Ljmemorize.core.learn.LearnHistory.CalendarComparator;IZ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSummaries" id="jmemorize.core.learn/LearnHistory#getSummaries(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSummaries" id="jmemorize.core.learn/LearnHistory#getSummaries()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSummaries" id="jmemorize.core.learn/LearnHistory#getSummaries(Ljmemorize.core.learn.LearnHistory.CalendarComparator;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSummary" id="jmemorize.core.learn/LearnHistory#getSummary(Ljava.util.Date;Ljmemorize.core.learn.LearnHistory.CalendarComparator;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="jmemorize.core.learn/LearnHistory#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isLoaded" id="jmemorize.core.learn/LearnHistory#isLoaded()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="load" id="jmemorize.core.learn/LearnHistory#load(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="save" id="jmemorize.core.learn/LearnHistory#save(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIsLoaded" id="jmemorize.core.learn/LearnHistory#setIsLoaded(Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="175,390">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2" name="CalendarComparator" location="307,158" size="175,139" id="jmemorize.core.learn/LearnHistory$CalendarComparator" runTimeClassModel="toValue(Ljava.util.Calendar;),getFormat(),compare(Ljmemorize.core.learn.LearnHistory.SessionSummary;Ljmemorize.core.learn.LearnHistory.SessionSummary;),showRotated(),decCalendarValue(Ljava.util.Calendar;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="118,90">
+          <children xsi:type="editmodel:MethodEditModel" name="compare" id="jmemorize.core.learn/LearnHistory$CalendarComparator#compare(Ljmemorize.core.learn.LearnHistory.SessionSummary;Ljmemorize.core.learn.LearnHistory.SessionSummary;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="decCalendarValue" id="jmemorize.core.learn/LearnHistory$CalendarComparator#decCalendarValue(Ljava.util.Calendar;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getFormat" id="jmemorize.core.learn/LearnHistory$CalendarComparator#getFormat()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="showRotated" id="jmemorize.core.learn/LearnHistory$CalendarComparator#showRotated()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="toValue" id="jmemorize.core.learn/LearnHistory$CalendarComparator#toValue(Ljava.util.Calendar;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.0/@sourceConnections.1" name="SessionSummary" location="868,482" size="152,247" id="jmemorize.core.learn/LearnHistory$SessionSummary">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="94,198">
+          <children xsi:type="editmodel:MethodEditModel" name="clone" id="jmemorize.core.learn/LearnHistory$SessionSummary#clone()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="equals" id="jmemorize.core.learn/LearnHistory$SessionSummary#equals(Ljava.lang.Object;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getDuration" id="jmemorize.core.learn/LearnHistory$SessionSummary#getDuration()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getEnd" id="jmemorize.core.learn/LearnHistory$SessionSummary#getEnd()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getFailed" id="jmemorize.core.learn/LearnHistory$SessionSummary#getFailed()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getPassed" id="jmemorize.core.learn/LearnHistory$SessionSummary#getPassed()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getRelearned" id="jmemorize.core.learn/LearnHistory$SessionSummary#getRelearned()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getSkipped" id="jmemorize.core.learn/LearnHistory$SessionSummary#getSkipped()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getStart" id="jmemorize.core.learn/LearnHistory$SessionSummary#getStart()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="jmemorize.core.learn/LearnHistory$SessionSummary#hashCode()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="toString" id="jmemorize.core.learn/LearnHistory$SessionSummary#toString()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="jmemorize.core.learn/LearnHistory$SessionSummary@m_summaries+jmemorize.core.learn/LearnHistory@this$0" source="//@children.0" target="//@children.0/@children.2/@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="this$0" location="218,605" id="jmemorize.core.learn/LearnHistory$SessionSummary@m_summaries+jmemorize.core.learn/LearnHistory@this$0|jmemorize.core.learn/LearnHistory#this$0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="m_summaries" location="0,123" id="jmemorize.core.learn/LearnHistory$SessionSummary@m_summaries+jmemorize.core.learn/LearnHistory@this$0|jmemorize.core.learn/LearnHistory$SessionSummary#m_summaries" multiplicityLabel="//@children.0/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.0/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - m_summaries" location="830,740" size="76,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="902,768" size="4,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnHistory->Standard::Call" source="//@children.0" target="//@children.0/@children.2/@children.1" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="218,585" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,92"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnHistory->Standard::Call" source="//@children.0" target="//@children.0/@children.2/@children.0" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="218,227" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,69"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.4/@sourceConnections.5" name="LearnSessionProvider" location="651,573" size="202,153" id="jmemorize.core.learn/LearnSessionProvider">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="179,90">
+      <children xsi:type="editmodel:MethodEditModel" name="addLearnSessionObserver" id="jmemorize.core.learn/LearnSessionProvider#addLearnSessionObserver(Ljmemorize.core.learn.LearnSessionObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSessionRunning" id="jmemorize.core.learn/LearnSessionProvider#isSessionRunning()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeLearnSessionObserver" id="jmemorize.core.learn/LearnSessionProvider#removeLearnSessionObserver(Ljmemorize.core.learn.LearnSessionObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sessionEnded" id="jmemorize.core.learn/LearnSessionProvider#sessionEnded(Ljmemorize.core.learn.LearnSession;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startLearnSession" id="jmemorize.core.learn/LearnSessionProvider#startLearnSession(Ljmemorize.core.learn.LearnSettings;Ljava.util.List;Ljmemorize.core.Category;ZZ)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSessionProvider-Soyatec::Import->jmemorize.core.learn/LearnSession" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,127" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="189,26"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSessionProvider-Soyatec::Import->jmemorize.core.learn/LearnSettings" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="17,153" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="193,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSessionProvider-Soyatec::Import->jmemorize.core.learn/LearnSessionObserver" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.2/@children.2" label="//@children.1/@sourceConnections.2/@children.0" sourceEnd="//@children.1/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,99"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.1/@sourceConnections.2" name="LearnSessionObserver" location="308,50" size="185,99" id="jmemorize.core.learn/LearnSessionObserver">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="103,36">
+      <children xsi:type="editmodel:MethodEditModel" name="sessionEnded" id="jmemorize.core.learn/LearnSessionObserver#sessionEnded(Ljmemorize.core.learn.LearnSession;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sessionStarted" id="jmemorize.core.learn/LearnSessionObserver#sessionStarted(Ljmemorize.core.learn.LearnSession;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSessionObserver-Soyatec::Import->jmemorize.core.learn/LearnSession" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,99" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="171,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.3 //@children.4/@sourceConnections.4 //@children.1/@sourceConnections.1 //@children.5/@sourceConnections.0" name="LearnSettings" location="475,1186" size="211,942" id="jmemorize.core.learn/LearnSettings">
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="cATEGORY_ORDER_FIXED" id="jmemorize.core.learn/LearnSettings#cATEGORY_ORDER_FIXED"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="cATEGORY_ORDER_RANDOM" id="jmemorize.core.learn/LearnSettings#cATEGORY_ORDER_RANDOM"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sCHEDULE_LEVELS" id="jmemorize.core.learn/LearnSettings#sCHEDULE_LEVELS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sCHEDULE_PRESETS" id="jmemorize.core.learn/LearnSettings#sCHEDULE_PRESETS"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sIDES_BOTH" id="jmemorize.core.learn/LearnSettings#sIDES_BOTH"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sIDES_FLIPPED" id="jmemorize.core.learn/LearnSettings#sIDES_FLIPPED"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sIDES_NORMAL" id="jmemorize.core.learn/LearnSettings#sIDES_NORMAL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sIDES_RANDOM" id="jmemorize.core.learn/LearnSettings#sIDES_RANDOM"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="178,576">
+      <children xsi:type="editmodel:MethodEditModel" name="LearnSettings" id="jmemorize.core.learn/LearnSettings#LearnSettings()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAmountToTest" id="jmemorize.core.learn/LearnSettings#getAmountToTest(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCardLimit" id="jmemorize.core.learn/LearnSettings#getCardLimit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCategoryOrder" id="jmemorize.core.learn/LearnSettings#getCategoryOrder()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getExpirationDate" id="jmemorize.core.learn/LearnSettings#getExpirationDate(Ljava.util.Date;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFixedExpirationHour" id="jmemorize.core.learn/LearnSettings#getFixedExpirationHour()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFixedExpirationMinute" id="jmemorize.core.learn/LearnSettings#getFixedExpirationMinute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPresetSchedule" id="jmemorize.core.learn/LearnSettings#getPresetSchedule(Ljmemorize.core.learn.LearnSettings.SchedulePreset;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSchedule" id="jmemorize.core.learn/LearnSettings#getSchedule()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSchedulePreset" id="jmemorize.core.learn/LearnSettings#getSchedulePreset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShuffleRatio" id="jmemorize.core.learn/LearnSettings#getShuffleRatio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSidesMode" id="jmemorize.core.learn/LearnSettings#getSidesMode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTimeLimit" id="jmemorize.core.learn/LearnSettings#getTimeLimit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCardLimitEnabled" id="jmemorize.core.learn/LearnSettings#isCardLimitEnabled()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isFixedExpirationTimeEnabled" id="jmemorize.core.learn/LearnSettings#isFixedExpirationTimeEnabled()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isGroupByCategory" id="jmemorize.core.learn/LearnSettings#isGroupByCategory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRetestFailedCards" id="jmemorize.core.learn/LearnSettings#isRetestFailedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isTimeLimitEnabled" id="jmemorize.core.learn/LearnSettings#isTimeLimitEnabled()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAmountToTest" id="jmemorize.core.learn/LearnSettings#setAmountToTest(ZI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCardLimit" id="jmemorize.core.learn/LearnSettings#setCardLimit(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCardLimitEnabled" id="jmemorize.core.learn/LearnSettings#setCardLimitEnabled(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCategoryOrder" id="jmemorize.core.learn/LearnSettings#setCategoryOrder(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCustomSchedule" id="jmemorize.core.learn/LearnSettings#setCustomSchedule([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFixedExpirationTime" id="jmemorize.core.learn/LearnSettings#setFixedExpirationTime(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFixedExpirationTimeEnabled" id="jmemorize.core.learn/LearnSettings#setFixedExpirationTimeEnabled(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGroupByCategory" id="jmemorize.core.learn/LearnSettings#setGroupByCategory(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRetestFailedCards" id="jmemorize.core.learn/LearnSettings#setRetestFailedCards(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSchedulePreset" id="jmemorize.core.learn/LearnSettings#setSchedulePreset(Ljmemorize.core.learn.LearnSettings.SchedulePreset;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setShuffleRatio" id="jmemorize.core.learn/LearnSettings#setShuffleRatio(F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSidesMode" id="jmemorize.core.learn/LearnSettings#setSidesMode(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTimeLimit" id="jmemorize.core.learn/LearnSettings#setTimeLimit(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTimeLimitEnabled" id="jmemorize.core.learn/LearnSettings#setTimeLimitEnabled(Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,163">
+      <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.3/@sourceConnections.1 //@children.3/@sourceConnections.2" name="SchedulePreset" location="3827,3556" size="142,161" id="jmemorize.core.learn/LearnSettings$SchedulePreset">
+        <children xsi:type="editmodel:CompartmentEditModel" size="88,108">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="QUAD" id="jmemorize.core.learn/LearnSettings$SchedulePreset#QUAD%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="EXPONENTIAL" id="jmemorize.core.learn/LearnSettings$SchedulePreset#EXPONENTIAL%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="CRAM" id="jmemorize.core.learn/LearnSettings$SchedulePreset#CRAM%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="LINEAR" id="jmemorize.core.learn/LearnSettings$SchedulePreset#LINEAR%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="CONST" id="jmemorize.core.learn/LearnSettings$SchedulePreset#CONST%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="CUSTOM" id="jmemorize.core.learn/LearnSettings$SchedulePreset#CUSTOM%"/>
+        </children>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSettings@settings+jmemorize.core.learn/LearnSession@" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="settings" location="0,10" id="jmemorize.core.learn/LearnSettings@settings+jmemorize.core.learn/LearnSession@|jmemorize.core.learn/LearnSettings#settings" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.3/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" + settings" location="418,1203" size="50,14" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="0..1" location="450,1175" size="18,14" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="189,429" id="jmemorize.core.learn/LearnSettings@settings+jmemorize.core.learn/LearnSession@|jmemorize.core.learn/LearnSession#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSettings$SchedulePreset@m_schedulePreset+jmemorize.core.learn/LearnSettings@" source="//@children.3" target="//@children.3/@children.2/@children.0" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="211,932" id="jmemorize.core.learn/LearnSettings$SchedulePreset@m_schedulePreset+jmemorize.core.learn/LearnSettings@|jmemorize.core.learn/LearnSettings#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="m_schedulePreset" location="10,0" id="jmemorize.core.learn/LearnSettings$SchedulePreset@m_schedulePreset+jmemorize.core.learn/LearnSettings@|jmemorize.core.learn/LearnSettings$SchedulePreset#m_schedulePreset" multiplicityLabel="//@children.3/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.3/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - m_schedulePreset" location="389,1936" size="99,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="502,1936" size="6,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSettings->Standard::Call" source="//@children.3" target="//@children.3/@children.2/@children.0" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Access»" size="107,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="206,942" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="DefaultLearnSession" location="54,1222" size="181,517" id="jmemorize.core.learn/DefaultLearnSession">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,468">
+      <children xsi:type="editmodel:MethodEditModel" name="DefaultLearnSession" id="jmemorize.core.learn/DefaultLearnSession#DefaultLearnSession(Ljmemorize.core.Category;Ljmemorize.core.learn.LearnSettings;Ljava.util.List;ZZLjmemorize.core.learn.LearnSessionProvider;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addObserver" id="jmemorize.core.learn/DefaultLearnSession#addObserver(Ljmemorize.core.learn.LearnSession.LearnCardObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cardChecked" id="jmemorize.core.learn/DefaultLearnSession#cardChecked(ZZ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cardSkipped" id="jmemorize.core.learn/DefaultLearnSession#cardSkipped()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="endLearning" id="jmemorize.core.learn/DefaultLearnSession#endLearning()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCardsLeft" id="jmemorize.core.learn/DefaultLearnSession#getCardsLeft()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCategory" id="jmemorize.core.learn/DefaultLearnSession#getCategory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCheckedCards" id="jmemorize.core.learn/DefaultLearnSession#getCheckedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCurrentCard" id="jmemorize.core.learn/DefaultLearnSession#getCurrentCard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCurrentShuffleLevel" id="jmemorize.core.learn/DefaultLearnSession#getCurrentShuffleLevel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEnd" id="jmemorize.core.learn/DefaultLearnSession#getEnd()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFailedCards" id="jmemorize.core.learn/DefaultLearnSession#getFailedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNCardsLearned" id="jmemorize.core.learn/DefaultLearnSession#getNCardsLearned()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNCardsPartiallyLearned" id="jmemorize.core.learn/DefaultLearnSession#getNCardsPartiallyLearned()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPassedCards" id="jmemorize.core.learn/DefaultLearnSession#getPassedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRelearnedCards" id="jmemorize.core.learn/DefaultLearnSession#getRelearnedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSettings" id="jmemorize.core.learn/DefaultLearnSession#getSettings()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSkippedCards" id="jmemorize.core.learn/DefaultLearnSession#getSkippedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStart" id="jmemorize.core.learn/DefaultLearnSession#getStart()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isQuit" id="jmemorize.core.learn/DefaultLearnSession#isQuit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRelevant" id="jmemorize.core.learn/DefaultLearnSession#isRelevant()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCardEvent" id="jmemorize.core.learn/DefaultLearnSession#onCardEvent(ILjmemorize.core.Card;Ljmemorize.core.Category;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCategoryEvent" id="jmemorize.core.learn/DefaultLearnSession#onCategoryEvent(ILjmemorize.core.Category;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onTimer" id="jmemorize.core.learn/DefaultLearnSession#onTimer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeObserver" id="jmemorize.core.learn/DefaultLearnSession#removeObserver(Ljmemorize.core.learn.LearnSession.LearnCardObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startLearning" id="jmemorize.core.learn/DefaultLearnSession#startLearning()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSession&lt;-jmemorize.core.learn/DefaultLearnSession" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="90,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,498"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSessionProvider@m_provider+jmemorize.core.learn/DefaultLearnSession@" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,10" id="jmemorize.core.learn/LearnSessionProvider@m_provider+jmemorize.core.learn/DefaultLearnSession@|jmemorize.core.learn/DefaultLearnSession#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="m_provider" location="10,153" id="jmemorize.core.learn/LearnSessionProvider@m_provider+jmemorize.core.learn/DefaultLearnSession@|jmemorize.core.learn/LearnSessionProvider#m_provider" multiplicityLabel="//@children.4/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.1/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - m_provider" location="668,733" size="64,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="648,733" size="6,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSession$LearnCardObserver@m_cardObservers+jmemorize.core.learn/DefaultLearnSession@" source="//@children.4" target="//@children.5/@children.2/@children.0" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,507" id="jmemorize.core.learn/LearnSession$LearnCardObserver@m_cardObservers+jmemorize.core.learn/DefaultLearnSession@|jmemorize.core.learn/DefaultLearnSession#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="m_cardObservers" location="10,0" id="jmemorize.core.learn/LearnSession$LearnCardObserver@m_cardObservers+jmemorize.core.learn/DefaultLearnSession@|jmemorize.core.learn/LearnSession$LearnCardObserver#m_cardObservers" multiplicityLabel="//@children.4/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.2/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - m_cardObservers" location="-35,1060" size="98,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="77,1060" size="4,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSettings@m_settings+jmemorize.core.learn/DefaultLearnSession@" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.3/@children.2" label="//@children.4/@sourceConnections.3/@children.0" sourceEnd="//@children.4/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,258" id="jmemorize.core.learn/LearnSettings@m_settings+jmemorize.core.learn/DefaultLearnSession@|jmemorize.core.learn/DefaultLearnSession#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="m_settings" location="0,294" id="jmemorize.core.learn/LearnSettings@m_settings+jmemorize.core.learn/DefaultLearnSession@|jmemorize.core.learn/LearnSettings#m_settings" multiplicityLabel="//@children.4/@sourceConnections.3/@children.2/@children.1" roleLabel="//@children.4/@sourceConnections.3/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" - m_settings" location="406,1459" size="62,14" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="462,1487" size="6,14" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession->Standard::Call" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.4/@children.2" label="//@children.4/@sourceConnections.4/@children.0" sourceEnd="//@children.4/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,238" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,263"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession->Standard::Call" source="//@children.4" target="//@children.1" targetEnd="//@children.4/@sourceConnections.5/@children.2" label="//@children.4/@sourceConnections.5/@children.0" sourceEnd="//@children.4/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,138"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession-Soyatec::Implement->jmemorize.core.learn/LearnSession" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.6/@children.2" label="//@children.4/@sourceConnections.6/@children.0" sourceEnd="//@children.4/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="181,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="114,498"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession->Standard::Call" source="//@children.4" target="//@children.5/@children.2/@children.0" targetEnd="//@children.4/@sourceConnections.7/@children.2" label="//@children.4/@sourceConnections.7/@children.0" sourceEnd="//@children.4/@sourceConnections.7/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,517" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.4/@sourceConnections.6 //@children.3/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.2/@sourceConnections.0" name="LearnSession" location="50,674" size="189,498" id="jmemorize.core.learn/LearnSession">
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="end" id="jmemorize.core.learn/LearnSession#end"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="start" id="jmemorize.core.learn/LearnSession#start"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,306">
+      <children xsi:type="editmodel:MethodEditModel" name="addObserver" id="jmemorize.core.learn/LearnSession#addObserver(Ljmemorize.core.learn.LearnSession.LearnCardObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cardChecked" id="jmemorize.core.learn/LearnSession#cardChecked(ZZ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cardSkipped" id="jmemorize.core.learn/LearnSession#cardSkipped()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="endLearning" id="jmemorize.core.learn/LearnSession#endLearning()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCardsLeft" id="jmemorize.core.learn/LearnSession#getCardsLeft()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCheckedCards" id="jmemorize.core.learn/LearnSession#getCheckedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFailedCards" id="jmemorize.core.learn/LearnSession#getFailedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNCardsLearned" id="jmemorize.core.learn/LearnSession#getNCardsLearned()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNCardsPartiallyLearned" id="jmemorize.core.learn/LearnSession#getNCardsPartiallyLearned()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPassedCards" id="jmemorize.core.learn/LearnSession#getPassedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRelearnedCards" id="jmemorize.core.learn/LearnSession#getRelearnedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSkippedCards" id="jmemorize.core.learn/LearnSession#getSkippedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isQuit" id="jmemorize.core.learn/LearnSession#isQuit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isRelevant" id="jmemorize.core.learn/LearnSession#isRelevant()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onTimer" id="jmemorize.core.learn/LearnSession#onTimer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeObserver" id="jmemorize.core.learn/LearnSession#removeObserver(Ljmemorize.core.learn.LearnSession.LearnCardObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startLearning" id="jmemorize.core.learn/LearnSession#startLearning()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="166,83">
+      <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.2 //@children.4/@sourceConnections.7 //@children.5/@sourceConnections.1" name="LearnCardObserver" location="2475,2479" size="166,81" id="jmemorize.core.learn/LearnSession$LearnCardObserver">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="113,18">
+          <children xsi:type="editmodel:MethodEditModel" name="nextCardFetched" id="jmemorize.core.learn/LearnSession$LearnCardObserver#nextCardFetched(Ljmemorize.core.Card;Z)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSession-Soyatec::Import->jmemorize.core.learn/LearnSettings" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="189,409" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,294"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSession-Soyatec::Import->jmemorize.core.learn/LearnSession$LearnCardObserver" source="//@children.5" target="//@children.5/@children.2/@children.0" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="189,337" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:NotepadEditModel" location="1140,461" size="148,24" fontInfo="Arial-8-0" note="이게 inner 클래스 인가?"/>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

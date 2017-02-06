@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Main" size="2558,2500" id="jmemorize.core" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130206A4D656D6F72697A65">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.9 //@children.9/@sourceConnections.3 //@children.13/@sourceConnections.8" name="Settings" location="491,50" size="180,104" id="jmemorize.core/Settings" runTimeClassModel="jmemorize.core.Settings.CardFontObserver">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="157,45">
+      <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.0/@sourceConnections.4" name="CardFontObserver" location="7343,7285" size="157,43" id="jmemorize.core/Settings$CardFontObserver" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Settings-Standard::Call->jmemorize.core.learn/LearnSettings*jmemorize.core/Settings-Standard::Instantiate->jmemorize.core.learn/LearnSettings*jmemorize.core/Settings-Soyatec::Import->jmemorize.core.learn/LearnSettings" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Settings-Soyatec::Import->jmemorize.gui.swing.frames/MainFrame" source="//@children.0" target="//@children.13" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="144,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="29,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Settings-Soyatec::Access->jmemorize.core/Main" source="//@children.0" target="//@children.11" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Access»" size="50,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Settings-Standard::Call->jmemorize.core.learn/LearnSettings$SchedulePreset" source="//@children.0" target="//@children.2/@children.2/@children.0" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="16,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Settings-Standard::Call->jmemorize.core/Settings$CardFontObserver*jmemorize.core/Settings-Soyatec::Import->jmemorize.core/Settings$CardFontObserver" source="//@children.0" target="//@children.0/@children.2/@children.0" targetEnd="//@children.0/@sourceConnections.4/@children.2" label="//@children.0/@sourceConnections.4/@children.0" sourceEnd="//@children.0/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.11/@sourceConnections.15 //@children.13/@sourceConnections.5 //@children.3/@sourceConnections.3" name="LearnSessionObserver" location="1105,1953" size="185,57" id="jmemorize.core.learn/LearnSessionObserver" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSessionObserver-Soyatec::Import->jmemorize.core.learn/LearnSession" source="//@children.1" target="//@children.5" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="56,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,132"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.5 //@children.16/@sourceConnections.0 //@children.5/@sourceConnections.2 //@children.3/@sourceConnections.2 //@children.0/@sourceConnections.0" name="LearnSettings" location="50,795" size="165,236" id="jmemorize.core.learn/LearnSettings" runTimeClassModel="jmemorize.core.learn.LearnSettings.SchedulePreset">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,163">
+      <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.0/@sourceConnections.3 //@children.2/@sourceConnections.1" name="SchedulePreset" location="6710,8295" size="142,161" id="jmemorize.core.learn/LearnSettings$SchedulePreset" runTimeClassModel="CRAM%,CONST%,EXPONENTIAL%,CUSTOM%,QUAD%,LINEAR%">
+        <children xsi:type="editmodel:CompartmentEditModel" size="88,108">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="CRAM" id="jmemorize.core.learn/LearnSettings$SchedulePreset#CRAM%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="QUAD" id="jmemorize.core.learn/LearnSettings$SchedulePreset#QUAD%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="LINEAR" id="jmemorize.core.learn/LearnSettings$SchedulePreset#LINEAR%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="EXPONENTIAL" id="jmemorize.core.learn/LearnSettings$SchedulePreset#EXPONENTIAL%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="CONST" id="jmemorize.core.learn/LearnSettings$SchedulePreset#CONST%"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="CUSTOM" id="jmemorize.core.learn/LearnSettings$SchedulePreset#CUSTOM%"/>
+        </children>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSettings-Standard::Call->jmemorize.core/Main" source="//@children.2" target="//@children.11" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,115" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,11"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSettings-Standard::Call->jmemorize.core.learn/LearnSettings$SchedulePreset*jmemorize.core.learn/LearnSettings-Soyatec::Access->jmemorize.core.learn/LearnSettings$SchedulePreset*jmemorize.core.learn/LearnSettings-Soyatec::Import->jmemorize.core.learn/LearnSettings$SchedulePreset" source="//@children.2" target="//@children.2/@children.2/@children.0" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access, Call»" size="107,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,220" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="6,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.11/@sourceConnections.12 //@children.16/@sourceConnections.4" name="LearnSessionProvider" location="445,1899" size="182,57" id="jmemorize.core.learn/LearnSessionProvider" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSessionProvider-Soyatec::Import->jmemorize.core/Category" source="//@children.3" target="//@children.15" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="100,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="44,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSessionProvider-Soyatec::Import->jmemorize.core.learn/LearnSession" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,132"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSessionProvider-Soyatec::Import->jmemorize.core.learn/LearnSettings" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="129,236"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSessionProvider-Soyatec::Import->jmemorize.core.learn/LearnSessionObserver" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.3/@children.2" label="//@children.3/@sourceConnections.3/@children.0" sourceEnd="//@children.3/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="182,55" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.11 //@children.14/@sourceConnections.1" name="RecentItems" location="1610,2362" size="200,118" id="jmemorize.util/RecentItems" runTimeClassModel="jmemorize.util.RecentItems.RecentItemsObserver">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="177,45">
+      <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.4/@sourceConnections.0" name="RecentItemsObserver" location="9285,11487" size="177,43" id="jmemorize.util/RecentItems$RecentItemsObserver" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.util/RecentItems-Standard::Call->jmemorize.util/RecentItems$RecentItemsObserver*jmemorize.util/RecentItems-Soyatec::Import->jmemorize.util/RecentItems$RecentItemsObserver" source="//@children.4" target="//@children.4/@children.2/@children.0" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="148,118" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.11/@sourceConnections.6 //@children.16/@sourceConnections.5 //@children.13/@sourceConnections.4 //@children.3/@sourceConnections.1 //@children.1/@sourceConnections.0" name="LearnSession" location="435,1393" size="189,132" id="jmemorize.core.learn/LearnSession" runTimeClassModel="jmemorize.core.learn.LearnSession.LearnCardObserver">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="166,45">
+      <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.3 //@children.16/@sourceConnections.6" name="LearnCardObserver" location="6734,10169" size="166,43" id="jmemorize.core.learn/LearnSession$LearnCardObserver" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSession-Soyatec::Import->jmemorize.core/Category" source="//@children.5" target="//@children.15" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="38,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSession-Soyatec::Import->jmemorize.core/Card" source="//@children.5" target="//@children.10" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="33,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSession-Soyatec::Import->jmemorize.core.learn/LearnSettings" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,232"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnSession-Soyatec::Import->jmemorize.core.learn/LearnSession$LearnCardObserver" source="//@children.5" target="//@children.5/@children.2/@children.0" targetEnd="//@children.5/@sourceConnections.3/@children.2" label="//@children.5/@sourceConnections.3/@children.0" sourceEnd="//@children.5/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,132" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.16 //@children.7/@sourceConnections.1 //@children.9/@sourceConnections.6 //@children.13/@sourceConnections.2" name="LearnHistory" location="1976,184" size="198,135" id="jmemorize.core.learn/LearnHistory" runTimeClassModel="jmemorize.core.learn.LearnHistory.SessionSummary,jmemorize.core.learn.LearnHistory.CalendarComparator">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="175,62">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.3" name="CalendarComparator" location="10391,8065" size="175,29" id="jmemorize.core.learn/LearnHistory$CalendarComparator" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.13/@sourceConnections.9 //@children.6/@sourceConnections.2 //@children.9/@sourceConnections.7" name="SessionSummary" location="8700,7625" size="152,29" id="jmemorize.core.learn/LearnHistory$SessionSummary" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnHistory-Standard::Call->jmemorize.core.io/XmlBuilder" source="//@children.6" target="//@children.9" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,51" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,43"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnHistory-Standard::Call->jmemorize.core/Main" source="//@children.6" target="//@children.11" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,135" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="158,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnHistory-Standard::Call->jmemorize.core.learn/LearnHistory$SessionSummary*jmemorize.core.learn/LearnHistory-Standard::Instantiate->jmemorize.core.learn/LearnHistory$SessionSummary*jmemorize.core.learn/LearnHistory-Soyatec::Import->jmemorize.core.learn/LearnHistory$SessionSummary" source="//@children.6" target="//@children.6/@children.2/@children.1" targetEnd="//@children.6/@sourceConnections.2/@children.2" label="//@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="177,135" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/LearnHistory-Standard::Call->jmemorize.core.learn/LearnHistory$CalendarComparator*jmemorize.core.learn/LearnHistory-Soyatec::Import->jmemorize.core.learn/LearnHistory$CalendarComparator" source="//@children.6" target="//@children.6/@children.2/@children.0" targetEnd="//@children.6/@sourceConnections.3/@children.2" label="//@children.6/@sourceConnections.3/@children.0" sourceEnd="//@children.6/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="187,135" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.2 //@children.9/@sourceConnections.2 //@children.14/@sourceConnections.2 //@children.13/@sourceConnections.3 //@children.17/@sourceConnections.0" name="Lesson" location="1792,972" size="86,29" id="jmemorize.core/Lesson" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Lesson-Soyatec::Implement->jmemorize.core/CategoryObserver" source="//@children.7" target="//@children.12" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core.learn/LearnHistory*jmemorize.core/Lesson-Soyatec::Import->jmemorize.core.learn/LearnHistory" source="//@children.7" target="//@children.6" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate»" size="96,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="77,135"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Card" source="//@children.7" target="//@children.10" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,26"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Lesson-Standard::Call->jmemorize.core/Category*jmemorize.core/Lesson-Standard::Instantiate->jmemorize.core/Category*jmemorize.core/Lesson-Soyatec::Import->jmemorize.core/Category" source="//@children.7" target="//@children.15" targetEnd="//@children.7/@sourceConnections.3/@children.2" label="//@children.7/@sourceConnections.3/@children.0" sourceEnd="//@children.7/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,28" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.1 //@children.9/@sourceConnections.1" name="ImageRepository" location="2215,319" size="149,90" id="jmemorize.core/ImageRepository" runTimeClassModel="jmemorize.core.ImageRepository.ImageItem">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,31">
+      <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.1 //@children.9/@sourceConnections.8" name="ImageItem" location="9382,7422" size="110,29" id="jmemorize.core/ImageRepository$ImageItem" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/ImageRepository-Standard::Call->jmemorize.core/Main" source="//@children.8" target="//@children.11" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="45,90" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="176,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/ImageRepository-Standard::Call->jmemorize.core/ImageRepository$ImageItem*jmemorize.core/ImageRepository-Standard::Instantiate->jmemorize.core/ImageRepository$ImageItem*jmemorize.core/ImageRepository-Soyatec::Import->jmemorize.core/ImageRepository$ImageItem" source="//@children.8" target="//@children.8/@children.2/@children.0" targetEnd="//@children.8/@sourceConnections.1/@children.2" label="//@children.8/@sourceConnections.1/@children.0" sourceEnd="//@children.8/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,90" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.3 //@children.6/@sourceConnections.0" name="XmlBuilder" location="1348,97" size="113,43" id="jmemorize.core.io/XmlBuilder" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.io/XmlBuilder-Standard::Call->jmemorize.core/Card*jmemorize.core.io/XmlBuilder-Standard::Instantiate->jmemorize.core/Card*jmemorize.core.io/XmlBuilder-Soyatec::Import->jmemorize.core/Card" source="//@children.9" target="//@children.10" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="55,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.io/XmlBuilder-Standard::Call->jmemorize.core/ImageRepository*jmemorize.core.io/XmlBuilder-Soyatec::Import->jmemorize.core/ImageRepository" source="//@children.9" target="//@children.8" targetEnd="//@children.9/@sourceConnections.1/@children.2" label="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,37" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,24"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.io/XmlBuilder-Standard::Call->jmemorize.core/Lesson*jmemorize.core.io/XmlBuilder-Soyatec::Import->jmemorize.core/Lesson" source="//@children.9" target="//@children.7" targetEnd="//@children.9/@sourceConnections.2/@children.2" label="//@children.9/@sourceConnections.2/@children.0" sourceEnd="//@children.9/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.io/XmlBuilder-Standard::Call->jmemorize.core/Settings" source="//@children.9" target="//@children.0" targetEnd="//@children.9/@sourceConnections.3/@children.2" label="//@children.9/@sourceConnections.3/@children.0" sourceEnd="//@children.9/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="180,68"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.io/XmlBuilder-Standard::Call->jmemorize.core/Category*jmemorize.core.io/XmlBuilder-Standard::Instantiate->jmemorize.core/Category*jmemorize.core.io/XmlBuilder-Soyatec::Import->jmemorize.core/Category" source="//@children.9" target="//@children.15" targetEnd="//@children.9/@sourceConnections.4/@children.2" label="//@children.9/@sourceConnections.4/@children.0" sourceEnd="//@children.9/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="42,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.io/XmlBuilder-Standard::Call->jmemorize.core/Main" source="//@children.9" target="//@children.11" targetEnd="//@children.9/@sourceConnections.5/@children.2" label="//@children.9/@sourceConnections.5/@children.0" sourceEnd="//@children.9/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="117,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.io/XmlBuilder-Standard::Call->jmemorize.core.learn/LearnHistory*jmemorize.core.io/XmlBuilder-Soyatec::Import->jmemorize.core.learn/LearnHistory" source="//@children.9" target="//@children.6" targetEnd="//@children.9/@sourceConnections.6/@children.2" label="//@children.9/@sourceConnections.6/@children.0" sourceEnd="//@children.9/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,32" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,47"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.io/XmlBuilder-Standard::Call->jmemorize.core.learn/LearnHistory$SessionSummary*jmemorize.core.io/XmlBuilder-Soyatec::Import->jmemorize.core.learn/LearnHistory$SessionSummary" source="//@children.9" target="//@children.6/@children.2/@children.1" targetEnd="//@children.9/@sourceConnections.7/@children.2" label="//@children.9/@sourceConnections.7/@children.0" sourceEnd="//@children.9/@sourceConnections.7/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="83,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.io/XmlBuilder-Standard::Call->jmemorize.core/ImageRepository$ImageItem*jmemorize.core.io/XmlBuilder-Soyatec::Import->jmemorize.core/ImageRepository$ImageItem" source="//@children.9" target="//@children.8/@children.2/@children.0" targetEnd="//@children.9/@sourceConnections.8/@children.2" label="//@children.9/@sourceConnections.8/@children.0" sourceEnd="//@children.9/@sourceConnections.8/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.0 //@children.7/@sourceConnections.2 //@children.9/@sourceConnections.0 //@children.16/@sourceConnections.1 //@children.5/@sourceConnections.1 //@children.13/@sourceConnections.1 //@children.12/@sourceConnections.1 //@children.15/@sourceConnections.1" name="Card" location="683,610" size="72,29" id="jmemorize.core/Card" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Card-Standard::Call->jmemorize.core/Main" source="//@children.10" target="//@children.11" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="35,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Card-Standard::Call->jmemorize.core/Category*jmemorize.core/Card-Soyatec::Import->jmemorize.core/Category" source="//@children.10" target="//@children.15" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="25,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0 //@children.8/@sourceConnections.0 //@children.9/@sourceConnections.5 //@children.2/@sourceConnections.0 //@children.13/@sourceConnections.7 //@children.6/@sourceConnections.1 //@children.0/@sourceConnections.2" name="Main" location="1307,1125" size="201,104" id="jmemorize.core/Main" runTimeClassModel="jmemorize.core.Main.ProgramEndObserver">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="178,45">
+      <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.13/@sourceConnections.10 //@children.11/@sourceConnections.17" name="ProgramEndObserver" location="9622,9229" size="178,43" id="jmemorize.core/Main$ProgramEndObserver" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Soyatec::Import->jmemorize.core/Card" source="//@children.11" target="//@children.10" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="35,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="55,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.core/ImageRepository" source="//@children.11" target="//@children.8" targetEnd="//@children.11/@sourceConnections.1/@children.2" label="//@children.11/@sourceConnections.1/@children.0" sourceEnd="//@children.11/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="156,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="25,90"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.core/Lesson*jmemorize.core/Main-Standard::Instantiate->jmemorize.core/Lesson*jmemorize.core/Main-Soyatec::Import->jmemorize.core/Lesson" source="//@children.11" target="//@children.7" targetEnd="//@children.11/@sourceConnections.2/@children.2" label="//@children.11/@sourceConnections.2/@children.0" sourceEnd="//@children.11/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="201,7" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="9,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.core.io/XmlBuilder" source="//@children.11" target="//@children.9" targetEnd="//@children.11/@sourceConnections.3/@children.2" label="//@children.11/@sourceConnections.3/@children.0" sourceEnd="//@children.11/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="97,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="56,43"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Instantiate->jmemorize.core.learn/DefaultLearnSession" source="//@children.11" target="//@children.16" targetEnd="//@children.11/@sourceConnections.4/@children.2" label="//@children.11/@sourceConnections.4/@children.0" sourceEnd="//@children.11/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="61,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,72" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,3"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Soyatec::Import->jmemorize.core.learn/LearnSettings" source="//@children.11" target="//@children.2" targetEnd="//@children.11/@sourceConnections.5/@children.2" label="//@children.11/@sourceConnections.5/@children.0" sourceEnd="//@children.11/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,31" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,135"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.core.learn/LearnSession*jmemorize.core/Main-Soyatec::Import->jmemorize.core.learn/LearnSession" source="//@children.11" target="//@children.5" targetEnd="//@children.11/@sourceConnections.6/@children.2" label="//@children.11/@sourceConnections.6/@children.0" sourceEnd="//@children.11/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,84" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="189,35"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Soyatec::Implement->jmemorize.core/LessonProvider" source="//@children.11" target="//@children.14" targetEnd="//@children.11/@sourceConnections.7/@children.2" label="//@children.11/@sourceConnections.7/@children.0" sourceEnd="//@children.11/@sourceConnections.7/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.gui.swing.frames/MainFrame*jmemorize.core/Main-Standard::Instantiate->jmemorize.gui.swing.frames/MainFrame*jmemorize.core/Main-Soyatec::Import->jmemorize.gui.swing.frames/MainFrame" source="//@children.11" target="//@children.13" targetEnd="//@children.11/@sourceConnections.8/@children.2" label="//@children.11/@sourceConnections.8/@children.0" sourceEnd="//@children.11/@sourceConnections.8/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="52,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,43"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.core/Settings" source="//@children.11" target="//@children.0" targetEnd="//@children.11/@sourceConnections.9/@children.2" label="//@children.11/@sourceConnections.9/@children.0" sourceEnd="//@children.11/@sourceConnections.9/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="130,104"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.core/LessonObserver*jmemorize.core/Main-Soyatec::Import->jmemorize.core/LessonObserver" source="//@children.11" target="//@children.17" targetEnd="//@children.11/@sourceConnections.10/@children.2" label="//@children.11/@sourceConnections.10/@children.0" sourceEnd="//@children.11/@sourceConnections.10/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="201,89" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.util/RecentItems*jmemorize.core/Main-Standard::Instantiate->jmemorize.util/RecentItems*jmemorize.core/Main-Soyatec::Import->jmemorize.util/RecentItems" source="//@children.11" target="//@children.4" targetEnd="//@children.11/@sourceConnections.11/@children.2" label="//@children.11/@sourceConnections.11/@children.0" sourceEnd="//@children.11/@sourceConnections.11/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Soyatec::Implement->jmemorize.core.learn/LearnSessionProvider" source="//@children.11" target="//@children.3" targetEnd="//@children.11/@sourceConnections.12/@children.2" label="//@children.11/@sourceConnections.12/@children.0" sourceEnd="//@children.11/@sourceConnections.12/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Soyatec::Implement->jmemorize.core/CategoryObserver" source="//@children.11" target="//@children.12" targetEnd="//@children.11/@sourceConnections.13/@children.2" label="//@children.11/@sourceConnections.13/@children.0" sourceEnd="//@children.11/@sourceConnections.13/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="95,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.core/Category*jmemorize.core/Main-Soyatec::Import->jmemorize.core/Category" source="//@children.11" target="//@children.15" targetEnd="//@children.11/@sourceConnections.14/@children.2" label="//@children.11/@sourceConnections.14/@children.0" sourceEnd="//@children.11/@sourceConnections.14/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,23" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,28"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.core.learn/LearnSessionObserver*jmemorize.core/Main-Soyatec::Import->jmemorize.core.learn/LearnSessionObserver" source="//@children.11" target="//@children.1" targetEnd="//@children.11/@sourceConnections.15/@children.2" label="//@children.11/@sourceConnections.15/@children.0" sourceEnd="//@children.11/@sourceConnections.15/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="99,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.core.learn/LearnHistory*jmemorize.core/Main-Standard::Instantiate->jmemorize.core.learn/LearnHistory*jmemorize.core/Main-Soyatec::Import->jmemorize.core.learn/LearnHistory" source="//@children.11" target="//@children.6" targetEnd="//@children.11/@sourceConnections.16/@children.2" label="//@children.11/@sourceConnections.16/@children.0" sourceEnd="//@children.11/@sourceConnections.16/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="138,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="50,135"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Main-Standard::Call->jmemorize.core/Main$ProgramEndObserver*jmemorize.core/Main-Soyatec::Import->jmemorize.core/Main$ProgramEndObserver" source="//@children.11" target="//@children.11/@children.2/@children.0" targetEnd="//@children.11/@sourceConnections.17/@children.2" label="//@children.11/@sourceConnections.17/@children.0" sourceEnd="//@children.11/@sourceConnections.17/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,104" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.11/@sourceConnections.13 //@children.7/@sourceConnections.0 //@children.16/@sourceConnections.2 //@children.13/@sourceConnections.6 //@children.15/@sourceConnections.0" name="CategoryObserver" location="1008,1553" size="156,43" id="jmemorize.core/CategoryObserver" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Category" source="//@children.12" target="//@children.15" targetEnd="//@children.12/@sourceConnections.0/@children.2" label="//@children.12/@sourceConnections.0/@children.0" sourceEnd="//@children.12/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="156,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/CategoryObserver-Soyatec::Import->jmemorize.core/Card" source="//@children.12" target="//@children.10" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="42,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.8 //@children.0/@sourceConnections.1" name="MainFrame" location="1255,608" size="158,43" id="jmemorize.gui.swing.frames/MainFrame" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Standard::Call->jmemorize.core/Category*jmemorize.gui.swing.frames/MainFrame-Soyatec::Import->jmemorize.core/Category" source="//@children.13" target="//@children.15" targetEnd="//@children.13/@sourceConnections.0/@children.2" label="//@children.13/@sourceConnections.0/@children.0" sourceEnd="//@children.13/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Soyatec::Import->jmemorize.core/Card" source="//@children.13" target="//@children.10" targetEnd="//@children.13/@sourceConnections.1/@children.2" label="//@children.13/@sourceConnections.1/@children.0" sourceEnd="//@children.13/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,16" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,14"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Standard::Call->jmemorize.core.learn/LearnHistory*jmemorize.gui.swing.frames/MainFrame-Soyatec::Import->jmemorize.core.learn/LearnHistory" source="//@children.13" target="//@children.6" targetEnd="//@children.13/@sourceConnections.2/@children.2" label="//@children.13/@sourceConnections.2/@children.0" sourceEnd="//@children.13/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,118"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Standard::Call->jmemorize.core/Lesson*jmemorize.gui.swing.frames/MainFrame-Soyatec::Import->jmemorize.core/Lesson" source="//@children.13" target="//@children.7" targetEnd="//@children.13/@sourceConnections.3/@children.2" label="//@children.13/@sourceConnections.3/@children.0" sourceEnd="//@children.13/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="23,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Standard::Call->jmemorize.core.learn/LearnSession*jmemorize.gui.swing.frames/MainFrame-Soyatec::Import->jmemorize.core.learn/LearnSession" source="//@children.13" target="//@children.5" targetEnd="//@children.13/@sourceConnections.4/@children.2" label="//@children.13/@sourceConnections.4/@children.0" sourceEnd="//@children.13/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="158,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Soyatec::Implement->jmemorize.core.learn/LearnSessionObserver" source="//@children.13" target="//@children.1" targetEnd="//@children.13/@sourceConnections.5/@children.2" label="//@children.13/@sourceConnections.5/@children.0" sourceEnd="//@children.13/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="17,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="167,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Soyatec::Implement->jmemorize.core/CategoryObserver" source="//@children.13" target="//@children.12" targetEnd="//@children.13/@sourceConnections.6/@children.2" label="//@children.13/@sourceConnections.6/@children.0" sourceEnd="//@children.13/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="84,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Standard::Call->jmemorize.core/Main*jmemorize.gui.swing.frames/MainFrame-Soyatec::Access->jmemorize.core/Main*jmemorize.gui.swing.frames/MainFrame-Soyatec::Import->jmemorize.core/Main" source="//@children.13" target="//@children.11" targetEnd="//@children.13/@sourceConnections.7/@children.2" label="//@children.13/@sourceConnections.7/@children.0" sourceEnd="//@children.13/@sourceConnections.7/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Access, Call»" size="107,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="124,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Standard::Call->jmemorize.core/Settings" source="//@children.13" target="//@children.0" targetEnd="//@children.13/@sourceConnections.8/@children.2" label="//@children.13/@sourceConnections.8/@children.0" sourceEnd="//@children.13/@sourceConnections.8/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="49,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="164,104"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Standard::Call->jmemorize.core.learn/LearnHistory$SessionSummary*jmemorize.gui.swing.frames/MainFrame-Soyatec::Import->jmemorize.core.learn/LearnHistory$SessionSummary" source="//@children.13" target="//@children.6/@children.2/@children.1" targetEnd="//@children.13/@sourceConnections.9/@children.2" label="//@children.13/@sourceConnections.9/@children.0" sourceEnd="//@children.13/@sourceConnections.9/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="108,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.gui.swing.frames/MainFrame-Soyatec::Implement->jmemorize.core/Main$ProgramEndObserver" source="//@children.13" target="//@children.11/@children.2/@children.0" targetEnd="//@children.13/@sourceConnections.10/@children.2" label="//@children.13/@sourceConnections.10/@children.0" sourceEnd="//@children.13/@sourceConnections.10/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.11/@sourceConnections.7" name="LessonProvider" location="2015,1909" size="140,43" id="jmemorize.core/LessonProvider" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/LessonObserver" source="//@children.14" target="//@children.17" targetEnd="//@children.14/@sourceConnections.0/@children.2" label="//@children.14/@sourceConnections.0/@children.0" sourceEnd="//@children.14/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="92,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,43"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.util/RecentItems" source="//@children.14" target="//@children.4" targetEnd="//@children.14/@sourceConnections.1/@children.2" label="//@children.14/@sourceConnections.1/@children.0" sourceEnd="//@children.14/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="53,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/LessonProvider-Soyatec::Import->jmemorize.core/Lesson" source="//@children.14" target="//@children.7" targetEnd="//@children.14/@sourceConnections.2/@children.2" label="//@children.14/@sourceConnections.2/@children.0" sourceEnd="//@children.14/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="47,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.14 //@children.10/@sourceConnections.1 //@children.7/@sourceConnections.3 //@children.9/@sourceConnections.4 //@children.16/@sourceConnections.3 //@children.5/@sourceConnections.0 //@children.13/@sourceConnections.0 //@children.3/@sourceConnections.0 //@children.12/@sourceConnections.0" name="Category" location="793,1000" size="99,29" id="jmemorize.core/Category" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Category-Standard::Call->jmemorize.core/CategoryObserver*jmemorize.core/Category-Soyatec::Import->jmemorize.core/CategoryObserver" source="//@children.15" target="//@children.12" targetEnd="//@children.15/@sourceConnections.0/@children.2" label="//@children.15/@sourceConnections.0/@children.0" sourceEnd="//@children.15/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="56,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/Category-Standard::Call->jmemorize.core/Card*jmemorize.core/Category-Soyatec::Import->jmemorize.core/Card" source="//@children.15" target="//@children.10" targetEnd="//@children.15/@sourceConnections.1/@children.2" label="//@children.15/@sourceConnections.1/@children.0" sourceEnd="//@children.15/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="45,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.4" name="DefaultLearnSession" location="79,1406" size="173,43" id="jmemorize.core.learn/DefaultLearnSession" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession-Standard::Call->jmemorize.core.learn/LearnSettings*jmemorize.core.learn/DefaultLearnSession-Soyatec::Import->jmemorize.core.learn/LearnSettings" source="//@children.16" target="//@children.2" targetEnd="//@children.16/@sourceConnections.0/@children.2" label="//@children.16/@sourceConnections.0/@children.0" sourceEnd="//@children.16/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,236"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession-Standard::Call->jmemorize.core/Card*jmemorize.core.learn/DefaultLearnSession-Soyatec::Import->jmemorize.core/Card" source="//@children.16" target="//@children.10" targetEnd="//@children.16/@sourceConnections.1/@children.2" label="//@children.16/@sourceConnections.1/@children.0" sourceEnd="//@children.16/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="100,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession-Soyatec::Implement->jmemorize.core/CategoryObserver" source="//@children.16" target="//@children.12" targetEnd="//@children.16/@sourceConnections.2/@children.2" label="//@children.16/@sourceConnections.2/@children.0" sourceEnd="//@children.16/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,35" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,9"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession-Standard::Call->jmemorize.core/Category*jmemorize.core.learn/DefaultLearnSession-Soyatec::Import->jmemorize.core/Category" source="//@children.16" target="//@children.15" targetEnd="//@children.16/@sourceConnections.3/@children.2" label="//@children.16/@sourceConnections.3/@children.0" sourceEnd="//@children.16/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession-Standard::Call->jmemorize.core.learn/LearnSessionProvider*jmemorize.core.learn/DefaultLearnSession-Soyatec::Import->jmemorize.core.learn/LearnSessionProvider" source="//@children.16" target="//@children.3" targetEnd="//@children.16/@sourceConnections.4/@children.2" label="//@children.16/@sourceConnections.4/@children.0" sourceEnd="//@children.16/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="102,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession-Soyatec::Implement->jmemorize.core.learn/LearnSession" source="//@children.16" target="//@children.5" targetEnd="//@children.16/@sourceConnections.5/@children.2" label="//@children.16/@sourceConnections.5/@children.0" sourceEnd="//@children.16/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="173,21" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,34"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core.learn/DefaultLearnSession-Standard::Call->jmemorize.core.learn/LearnSession$LearnCardObserver*jmemorize.core.learn/DefaultLearnSession-Soyatec::Import->jmemorize.core.learn/LearnSession$LearnCardObserver" source="//@children.16" target="//@children.5/@children.2/@children.0" targetEnd="//@children.16/@sourceConnections.6/@children.2" label="//@children.16/@sourceConnections.6/@children.0" sourceEnd="//@children.16/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="64,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,43" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="68,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.11/@sourceConnections.10 //@children.14/@sourceConnections.0" name="LessonObserver" location="2395,1547" size="143,43" id="jmemorize.core/LessonObserver" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="jmemorize.core/LessonObserver-Soyatec::Import->jmemorize.core/Lesson" source="//@children.17" target="//@children.7" targetEnd="//@children.17/@sourceConnections.0/@children.2" label="//@children.17/@sourceConnections.0/@children.0" sourceEnd="//@children.17/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="48,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="open=jmemorize.core/Main;wireOptions=4;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

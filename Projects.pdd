@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:projects="http://www.soyatec.com/projects" xmi:id="_7uR08JMoEeGDcKtOgAX_Gg" type="Projects" measurementUnit="Pixel">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7uScAJMoEeGDcKtOgAX_Gg" source="Diagram_Wire_Options">
+    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7uScAZMoEeGDcKtOgAX_Gg" key="Diagram_Wire_Options" value="2"/>
+  </eAnnotations>
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7uScApMoEeGDcKtOgAX_Gg" source="Show_Weight_Number">
+    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7uScA5MoEeGDcKtOgAX_Gg" key="Show_Weight_Number" value="0"/>
+  </eAnnotations>
+  <children xmi:type="notation:Node" xmi:id="_7uScBJMoEeGDcKtOgAX_Gg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_7uScBZMoEeGDcKtOgAX_Gg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_7uScBpMoEeGDcKtOgAX_Gg" type="4002"/>
+    <children xmi:type="notation:Node" xmi:id="_7uScB5MoEeGDcKtOgAX_Gg" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_7uScCJMoEeGDcKtOgAX_Gg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_7uScCZMoEeGDcKtOgAX_Gg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_7uScCpMoEeGDcKtOgAX_Gg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_7uScC5MoEeGDcKtOgAX_Gg" type="4001"/>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_7uScDJMoEeGDcKtOgAX_Gg"/>
+    <styles xmi:type="notation:FillStyle" xmi:id="_7uScDZMoEeGDcKtOgAX_Gg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_7uScDpMoEeGDcKtOgAX_Gg"/>
+    <element xmi:type="projects:Project" href="plugins#/jMemorize"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7uScD5MoEeGDcKtOgAX_Gg" x="30" y="30"/>
+  </children>
+  <styles xmi:type="notation:PageStyle" xmi:id="_7uScEJMoEeGDcKtOgAX_Gg"/>
+  <styles xmi:type="notation:GuideStyle" xmi:id="_7uScEZMoEeGDcKtOgAX_Gg"/>
+  <styles xmi:type="notation:DescriptionStyle" xmi:id="_7uScEpMoEeGDcKtOgAX_Gg"/>
+  <element xmi:type="projects:Diagram" href="plugins#/"/>
+</notation:Diagram>

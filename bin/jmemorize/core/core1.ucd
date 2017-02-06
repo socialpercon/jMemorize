@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="core1" size="1733,2302" id="jmemorize.core" metadata="uml2-1.0" initialized="true" scrolledY="1044" tag="10" key="32303037303533312D3130206A4D656D6F72697A65">
+  <children xsi:type="editmodel:InterfaceEditModel" name="LessonObserver" location="694,1830" size="143,135" id="jmemorize.core/LessonObserver" runTimeClassModel="lessonSaved(Ljmemorize.core.Lesson;),lessonClosed(Ljmemorize.core.Lesson;),lessonModified(Ljmemorize.core.Lesson;),lessonLoaded(Ljmemorize.core.Lesson;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,72">
+      <children xsi:type="editmodel:MethodEditModel" name="lessonClosed" id="jmemorize.core/LessonObserver#lessonClosed(Ljmemorize.core.Lesson;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lessonLoaded" id="jmemorize.core/LessonObserver#lessonLoaded(Ljmemorize.core.Lesson;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lessonModified" id="jmemorize.core/LessonObserver#lessonModified(Ljmemorize.core.Lesson;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="lessonSaved" id="jmemorize.core/LessonObserver#lessonSaved(Ljmemorize.core.Lesson;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Settings" location="853,50" size="185,556" id="jmemorize.core/Settings" runTimeClassModel="loadLocale(),loadCategoryTreeWidth(),setCardFont(Ljmemorize.core.Settings.CardFontObserver;Ljmemorize.gui.swing.CardFont.FontType;Ljmemorize.gui.swing.CardFont.FontType;),storeFrameState(Ljavax.swing.JFrame;Ljava.lang.String;),storeSaveCompressed(Z),loadLastDirectory(),loadStrategy(Ljmemorize.gui.swing.frames.MainFrame;),storeLocale(Ljava.util.Locale;),addCardFontObserver(Ljmemorize.core.Settings.CardFontObserver;),loadFont(Ljmemorize.gui.swing.CardFont.FontType;),setCardFont(Ljmemorize.core.Settings.CardFontObserver;ZLjmemorize.gui.swing.CardFont.FontType;Ljmemorize.gui.swing.CardFont.FontType;),loadIsSaveCompressed(),loadFrameState(Ljavax.swing.JFrame;Ljava.lang.String;),storeCategoryTreeVisible(Z),storeFont(Ljmemorize.gui.swing.CardFont.FontType;Ljmemorize.gui.swing.CardFont;),loadMainDividerLocation(),storeStrategy(Ljmemorize.core.learn.LearnSettings;),jmemorize.core.Settings.CardFontObserver,loadCategoryTreeVisible(),removedCardFontObserver(Ljmemorize.core.Settings.CardFontObserver;),storeLastDirectory(Ljava.io.File;),storeCategoryTreeWidth(I),pREFS,storeMainDividerLocation(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="pREFS" id="jmemorize.core/Settings#pREFS"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="162,396">
+      <children xsi:type="editmodel:MethodEditModel" name="addCardFontObserver" id="jmemorize.core/Settings#addCardFontObserver(Ljmemorize.core.Settings.CardFontObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadCategoryTreeVisible" id="jmemorize.core/Settings#loadCategoryTreeVisible()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadCategoryTreeWidth" id="jmemorize.core/Settings#loadCategoryTreeWidth()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadFont" id="jmemorize.core/Settings#loadFont(Ljmemorize.gui.swing.CardFont.FontType;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadFrameState" id="jmemorize.core/Settings#loadFrameState(Ljavax.swing.JFrame;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadIsSaveCompressed" id="jmemorize.core/Settings#loadIsSaveCompressed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadLastDirectory" id="jmemorize.core/Settings#loadLastDirectory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadLocale" id="jmemorize.core/Settings#loadLocale()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadMainDividerLocation" id="jmemorize.core/Settings#loadMainDividerLocation()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadStrategy" id="jmemorize.core/Settings#loadStrategy(Ljmemorize.gui.swing.frames.MainFrame;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removedCardFontObserver" id="jmemorize.core/Settings#removedCardFontObserver(Ljmemorize.core.Settings.CardFontObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCardFont" id="jmemorize.core/Settings#setCardFont(Ljmemorize.core.Settings.CardFontObserver;ZLjmemorize.gui.swing.CardFont.FontType;Ljmemorize.gui.swing.CardFont.FontType;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCardFont" id="jmemorize.core/Settings#setCardFont(Ljmemorize.core.Settings.CardFontObserver;Ljmemorize.gui.swing.CardFont.FontType;Ljmemorize.gui.swing.CardFont.FontType;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="storeCategoryTreeVisible" id="jmemorize.core/Settings#storeCategoryTreeVisible(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="storeCategoryTreeWidth" id="jmemorize.core/Settings#storeCategoryTreeWidth(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="storeFont" id="jmemorize.core/Settings#storeFont(Ljmemorize.gui.swing.CardFont.FontType;Ljmemorize.gui.swing.CardFont;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="storeFrameState" id="jmemorize.core/Settings#storeFrameState(Ljavax.swing.JFrame;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="storeLastDirectory" id="jmemorize.core/Settings#storeLastDirectory(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="storeLocale" id="jmemorize.core/Settings#storeLocale(Ljava.util.Locale;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="storeMainDividerLocation" id="jmemorize.core/Settings#storeMainDividerLocation(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="storeSaveCompressed" id="jmemorize.core/Settings#storeSaveCompressed(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="storeStrategy" id="jmemorize.core/Settings#storeStrategy(Ljmemorize.core.learn.LearnSettings;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="157,83">
+      <children xsi:type="editmodel:InterfaceEditModel" name="CardFontObserver" size="157,81" id="jmemorize.core/Settings$CardFontObserver" runTimeClassModel="fontChanged(Ljmemorize.gui.swing.CardFont.FontType;Ljmemorize.gui.swing.CardFont;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="92,18">
+          <children xsi:type="editmodel:MethodEditModel" name="fontChanged" id="jmemorize.core/Settings$CardFontObserver#fontChanged(Ljmemorize.gui.swing.CardFont.FontType;Ljmemorize.gui.swing.CardFont;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ImageRepository" location="50,1830" size="149,452" id="jmemorize.core/ImageRepository" runTimeClassModel="retain(Ljava.util.Set;),addImage(Ljavax.swing.ImageIcon;),getInstance(),equals(Ljava.util.List;Ljava.util.List;),toImageIcons(Ljava.util.List;),getKeys(),addImages(Ljava.util.List;),getImageItems(),getImage(Ljava.lang.String;),jmemorize.core.ImageRepository.ImageItem,clear(),iMG_ID_PREFIX,equals(Ljavax.swing.ImageIcon;Ljava.lang.String;),addImage(Ljava.io.InputStream;Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="iMG_ID_PREFIX" id="jmemorize.core/ImageRepository#iMG_ID_PREFIX"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,216">
+      <children xsi:type="editmodel:MethodEditModel" name="addImage" id="jmemorize.core/ImageRepository#addImage(Ljavax.swing.ImageIcon;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addImage" id="jmemorize.core/ImageRepository#addImage(Ljava.io.InputStream;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addImages" id="jmemorize.core/ImageRepository#addImages(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="jmemorize.core/ImageRepository#clear()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="jmemorize.core/ImageRepository#equals(Ljava.util.List;Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="jmemorize.core/ImageRepository#equals(Ljavax.swing.ImageIcon;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getImage" id="jmemorize.core/ImageRepository#getImage(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getImageItems" id="jmemorize.core/ImageRepository#getImageItems()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="jmemorize.core/ImageRepository#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getKeys" id="jmemorize.core/ImageRepository#getKeys()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="retain" id="jmemorize.core/ImageRepository#retain(Ljava.util.Set;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toImageIcons" id="jmemorize.core/ImageRepository#toImageIcons(Ljava.util.List;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,159">
+      <children xsi:type="editmodel:ClassEditModel" name="ImageItem" size="110,157" id="jmemorize.core/ImageRepository$ImageItem" runTimeClassModel="getId(),getFile(),getBytes(),ImageItem(Ljava.io.InputStream;Ljava.lang.String;),getImage(),toString()">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="77,108">
+          <children xsi:type="editmodel:MethodEditModel" name="ImageItem" id="jmemorize.core/ImageRepository$ImageItem#ImageItem(Ljava.io.InputStream;Ljava.lang.String;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getBytes" id="jmemorize.core/ImageRepository$ImageItem#getBytes()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getFile" id="jmemorize.core/ImageRepository$ImageItem#getFile()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getId" id="jmemorize.core/ImageRepository$ImageItem#getId()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="getImage" id="jmemorize.core/ImageRepository$ImageItem#getImage()"/>
+          <children xsi:type="editmodel:MethodEditModel" name="toString" id="jmemorize.core/ImageRepository$ImageItem#toString()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="CardSide" location="463,1830" size="181,340" id="jmemorize.core/CardSide" runTimeClassModel="removeObserver(Ljmemorize.core.CardSide.CardSideObserver;),jmemorize.core.CardSide.CardSideObserver,clone(),CardSide(Ljmemorize.core.FormattedText;),addObserver(Ljmemorize.core.CardSide.CardSideObserver;),getImages(),CardSide(),getText(),setImages(Ljava.util.List;),setText(Ljmemorize.core.FormattedText;),toString()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,180">
+      <children xsi:type="editmodel:MethodEditModel" name="CardSide" id="jmemorize.core/CardSide#CardSide()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CardSide" id="jmemorize.core/CardSide#CardSide(Ljmemorize.core.FormattedText;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addObserver" id="jmemorize.core/CardSide#addObserver(Ljmemorize.core.CardSide.CardSideObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clone" id="jmemorize.core/CardSide#clone()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getImages" id="jmemorize.core/CardSide#getImages()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getText" id="jmemorize.core/CardSide#getText()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeObserver" id="jmemorize.core/CardSide#removeObserver(Ljmemorize.core.CardSide.CardSideObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setImages" id="jmemorize.core/CardSide#setImages(Ljava.util.List;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setText" id="jmemorize.core/CardSide#setText(Ljmemorize.core.FormattedText;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="jmemorize.core/CardSide#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="158,101">
+      <children xsi:type="editmodel:InterfaceEditModel" name="CardSideObserver" size="158,99" id="jmemorize.core/CardSide$CardSideObserver" runTimeClassModel="onImagesChanged(Ljmemorize.core.CardSide;Ljava.util.List;),onTextChanged(Ljmemorize.core.CardSide;Ljmemorize.core.FormattedText;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="119,36">
+          <children xsi:type="editmodel:MethodEditModel" name="onImagesChanged" id="jmemorize.core/CardSide$CardSideObserver#onImagesChanged(Ljmemorize.core.CardSide;Ljava.util.List;)"/>
+          <children xsi:type="editmodel:MethodEditModel" name="onTextChanged" id="jmemorize.core/CardSide$CardSideObserver#onTextChanged(Ljmemorize.core.CardSide;Ljmemorize.core.FormattedText;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FormattedText" location="249,1830" size="164,380" id="jmemorize.core/FormattedText" runTimeClassModel="insertImage(Ljavax.swing.text.Document;Ljavax.swing.ImageIcon;I),formatted(Ljavax.swing.text.StyledDocument;II),getFormatted(),eMPTY,toString(),getDocument(),insertIntoDocument(Ljavax.swing.text.StyledDocument;I),clone(),jmemorize.core.FormattedText.ParseException,formatted(Ljava.lang.String;),equals(Ljava.lang.Object;),hashCode(),getUnformatted(),formatted(Ljavax.swing.text.StyledDocument;),unformatted(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="eMPTY" id="jmemorize.core/FormattedText#eMPTY"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,234">
+      <children xsi:type="editmodel:MethodEditModel" name="clone" id="jmemorize.core/FormattedText#clone()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="jmemorize.core/FormattedText#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="formatted" id="jmemorize.core/FormattedText#formatted(Ljavax.swing.text.StyledDocument;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="formatted" id="jmemorize.core/FormattedText#formatted(Ljavax.swing.text.StyledDocument;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="formatted" id="jmemorize.core/FormattedText#formatted(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDocument" id="jmemorize.core/FormattedText#getDocument()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFormatted" id="jmemorize.core/FormattedText#getFormatted()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUnformatted" id="jmemorize.core/FormattedText#getUnformatted()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="jmemorize.core/FormattedText#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertImage" id="jmemorize.core/FormattedText#insertImage(Ljavax.swing.text.Document;Ljavax.swing.ImageIcon;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="insertIntoDocument" id="jmemorize.core/FormattedText#insertIntoDocument(Ljavax.swing.text.StyledDocument;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="jmemorize.core/FormattedText#toString()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="unformatted" id="jmemorize.core/FormattedText#unformatted(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,69">
+      <children xsi:type="editmodel:ClassEditModel" name="ParseException" size="141,67" id="jmemorize.core/FormattedText$ParseException" runTimeClassModel="ParseException(Ljava.lang.String;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="105,18">
+          <children xsi:type="editmodel:MethodEditModel" name="ParseException" id="jmemorize.core/FormattedText$ParseException#ParseException(Ljava.lang.String;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SearchTool" location="887,1830" size="122,139" id="jmemorize.core/SearchTool" runTimeClassModel="fRONT_SIDE,bOTH_SIDES,search(Ljava.lang.String;IZLjava.util.List;),search(Ljava.lang.String;Ljava.lang.String;IZ),fLIP_SIDE">
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="bOTH_SIDES" id="jmemorize.core/SearchTool#bOTH_SIDES"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fLIP_SIDE" id="jmemorize.core/SearchTool#fLIP_SIDE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fRONT_SIDE" id="jmemorize.core/SearchTool#fRONT_SIDE"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="64,36">
+      <children xsi:type="editmodel:MethodEditModel" name="search" id="jmemorize.core/SearchTool#search(Ljava.lang.String;Ljava.lang.String;IZ)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="search" id="jmemorize.core/SearchTool#search(Ljava.lang.String;IZLjava.util.List;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Lesson" location="282,1044" size="159,301" id="jmemorize.core/Lesson" runTimeClassModel="setFile(Ljava.io.File;),getFile(),toString(),onCardEvent(ILjmemorize.core.Card;Ljmemorize.core.Category;I),Lesson(Ljmemorize.core.Category;Z),getRootCategory(),canSave(),setCanSave(Z),hashCode(),equals(Ljava.lang.Object;),Lesson(Z),getLearnHistory(),cloneWithoutProgress(),onCategoryEvent(ILjmemorize.core.Category;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,252">
+      <children xsi:type="editmodel:MethodEditModel" name="Lesson" id="jmemorize.core/Lesson#Lesson(Ljmemorize.core.Category;Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Lesson" id="jmemorize.core/Lesson#Lesson(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="canSave" id="jmemorize.core/Lesson#canSave()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cloneWithoutProgress" id="jmemorize.core/Lesson#cloneWithoutProgress()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="equals" id="jmemorize.core/Lesson#equals(Ljava.lang.Object;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFile" id="jmemorize.core/Lesson#getFile()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLearnHistory" id="jmemorize.core/Lesson#getLearnHistory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRootCategory" id="jmemorize.core/Lesson#getRootCategory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="hashCode" id="jmemorize.core/Lesson#hashCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCardEvent" id="jmemorize.core/Lesson#onCardEvent(ILjmemorize.core.Card;Ljmemorize.core.Category;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCategoryEvent" id="jmemorize.core/Lesson#onCategoryEvent(ILjmemorize.core.Category;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCanSave" id="jmemorize.core/Lesson#setCanSave(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFile" id="jmemorize.core/Lesson#setFile(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="jmemorize.core/Lesson#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jmemorize.core/CategoryObserver&lt;-jmemorize.core/Lesson" source="//@children.6" target="//@children.8/@sourceConnections.1" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.8/@sourceConnections.0" name="LessonProvider" location="50,261" size="171,153" id="jmemorize.core/LessonProvider" runTimeClassModel="loadLesson(Ljava.io.File;),createNewLesson(),addLessonObserver(Ljmemorize.core.LessonObserver;),removeLessonObserver(Ljmemorize.core.LessonObserver;),saveLesson(Ljmemorize.core.Lesson;Ljava.io.File;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="148,90">
+      <children xsi:type="editmodel:MethodEditModel" name="addLessonObserver" id="jmemorize.core/LessonProvider#addLessonObserver(Ljmemorize.core.LessonObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createNewLesson" id="jmemorize.core/LessonProvider#createNewLesson()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadLesson" id="jmemorize.core/LessonProvider#loadLesson(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeLessonObserver" id="jmemorize.core/LessonProvider#removeLessonObserver(Ljmemorize.core.LessonObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveLesson" id="jmemorize.core/LessonProvider#saveLesson(Ljmemorize.core.Lesson;Ljava.io.File;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main" location="50,1044" size="202,736" id="jmemorize.core/Main" runTimeClassModel="main([Ljava.lang.String;),getTomorrow(),addLearnSessionObserver(Ljmemorize.core.learn.LearnSessionObserver;),sessionEnded(Ljmemorize.core.learn.LearnSession;),addLessonObserver(Ljmemorize.core.LessonObserver;),addProgramEndObserver(Ljmemorize.core.Main.ProgramEndObserver;),getFrame(),onCardEvent(ILjmemorize.core.Card;Ljmemorize.core.Category;I),getLearnSettings(),pROPERTIES,getGlobalLearnHistory(),getNow(),isSessionRunning(),exit(),createNewLesson(),getLesson(),getInstance(),uSER_PREFS,removeLearnSessionObserver(Ljmemorize.core.learn.LearnSessionObserver;),jmemorize.core.Main.ProgramEndObserver,clearLastThrowable(),removeLessonObserver(Ljmemorize.core.LessonObserver;),saveLesson(Ljmemorize.core.Lesson;Ljava.io.File;),getRecentLessonFiles(),loadLesson(Ljava.io.File;),startLearnSession(Ljmemorize.core.learn.LearnSettings;Ljava.util.List;Ljmemorize.core.Category;ZZ),getLogger(),removeProgramEndObserver(Ljmemorize.core.Main.ProgramEndObserver;),logThrowable(Ljava.lang.String;Ljava.lang.Throwable;),setLesson(Ljmemorize.core.Lesson;),isDevel(),Main(),sTATS_FILE,onCategoryEvent(ILjmemorize.core.Category;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="150,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="pROPERTIES" id="jmemorize.core/Main#pROPERTIES"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sTATS_FILE" id="jmemorize.core/Main#sTATS_FILE"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="uSER_PREFS" id="jmemorize.core/Main#uSER_PREFS"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="179,540">
+      <children xsi:type="editmodel:MethodEditModel" name="Main" id="jmemorize.core/Main#Main()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addLearnSessionObserver" id="jmemorize.core/Main#addLearnSessionObserver(Ljmemorize.core.learn.LearnSessionObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addLessonObserver" id="jmemorize.core/Main#addLessonObserver(Ljmemorize.core.LessonObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addProgramEndObserver" id="jmemorize.core/Main#addProgramEndObserver(Ljmemorize.core.Main.ProgramEndObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clearLastThrowable" id="jmemorize.core/Main#clearLastThrowable()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createNewLesson" id="jmemorize.core/Main#createNewLesson()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="exit" id="jmemorize.core/Main#exit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFrame" id="jmemorize.core/Main#getFrame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGlobalLearnHistory" id="jmemorize.core/Main#getGlobalLearnHistory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="jmemorize.core/Main#getInstance()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLearnSettings" id="jmemorize.core/Main#getLearnSettings()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLesson" id="jmemorize.core/Main#getLesson()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLogger" id="jmemorize.core/Main#getLogger()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNow" id="jmemorize.core/Main#getNow()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRecentLessonFiles" id="jmemorize.core/Main#getRecentLessonFiles()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTomorrow" id="jmemorize.core/Main#getTomorrow()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isDevel" id="jmemorize.core/Main#isDevel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSessionRunning" id="jmemorize.core/Main#isSessionRunning()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadLesson" id="jmemorize.core/Main#loadLesson(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="logThrowable" id="jmemorize.core/Main#logThrowable(Ljava.lang.String;Ljava.lang.Throwable;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="jmemorize.core/Main#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCardEvent" id="jmemorize.core/Main#onCardEvent(ILjmemorize.core.Card;Ljmemorize.core.Category;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCategoryEvent" id="jmemorize.core/Main#onCategoryEvent(ILjmemorize.core.Category;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeLearnSessionObserver" id="jmemorize.core/Main#removeLearnSessionObserver(Ljmemorize.core.learn.LearnSessionObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeLessonObserver" id="jmemorize.core/Main#removeLessonObserver(Ljmemorize.core.LessonObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeProgramEndObserver" id="jmemorize.core/Main#removeProgramEndObserver(Ljmemorize.core.Main.ProgramEndObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="saveLesson" id="jmemorize.core/Main#saveLesson(Ljmemorize.core.Lesson;Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sessionEnded" id="jmemorize.core/Main#sessionEnded(Ljmemorize.core.learn.LearnSession;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLesson" id="jmemorize.core/Main#setLesson(Ljmemorize.core.Lesson;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="startLearnSession" id="jmemorize.core/Main#startLearnSession(Ljmemorize.core.learn.LearnSettings;Ljava.util.List;Ljmemorize.core.Category;ZZ)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="178,83">
+      <children xsi:type="editmodel:InterfaceEditModel" name="ProgramEndObserver" size="178,81" id="jmemorize.core/Main$ProgramEndObserver" runTimeClassModel="onProgramEnd()">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="100,18">
+          <children xsi:type="editmodel:MethodEditModel" name="onProgramEnd" id="jmemorize.core/Main$ProgramEndObserver#onProgramEnd()"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jmemorize.core/LessonProvider&lt;-jmemorize.core/Main" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="85,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="85,153"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.6/@sourceConnections.0" autoLocated="true" id="jmemorize.core/CategoryObserver&lt;-jmemorize.core/Main" source="//@children.8" target="//@children.12" targetEnd="//@children.8/@sourceConnections.1/@children.1" sourceEnd="//@children.8/@sourceConnections.1/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,99" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Category" location="437,261" size="159,733" id="jmemorize.core/Category" runTimeClassModel="getCards(),getLearnableCards(),getLearnedCards(I),raiseCardLevel(Ljmemorize.core.Card;Ljava.util.Date;Ljava.util.Date;),getSubtreeList(),Category(Ljava.lang.String;),reappendCard(Ljmemorize.core.Card;),getCards(I),toString(),getName(),fireCardEvent(ILjmemorize.core.Card;Ljmemorize.core.Category;I),getUnlearnedCards(),remove(),addCard(Ljmemorize.core.Card;),getChildCategory(Ljava.lang.String;),getChildCategories(),getDepth(),addObserver(Ljmemorize.core.CategoryObserver;),moveCard(Ljmemorize.core.Card;Ljmemorize.core.Category;),removeCard(Ljmemorize.core.Card;),setName(Ljava.lang.String;),getPath(),removeObserver(Ljmemorize.core.CategoryObserver;),addCard(Ljmemorize.core.Card;I),resetCardLevel(Ljmemorize.core.Card;Ljava.util.Date;),getLearnedCards(),fireCategoryEvent(ILjmemorize.core.Category;),addCategoryChild(Ljmemorize.core.Category;),resetCard(Ljmemorize.core.Card;),contains(Ljmemorize.core.Category;),getLocalCards(I),getLearnableCards(I),getLocalCards(),getParent(),getExpiredCards(I),cloneWithoutProgress(),getNumberOfDecks(),getExpiredCards()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,684">
+      <children xsi:type="editmodel:MethodEditModel" name="Category" id="jmemorize.core/Category#Category(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addCard" id="jmemorize.core/Category#addCard(Ljmemorize.core.Card;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addCard" id="jmemorize.core/Category#addCard(Ljmemorize.core.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addCategoryChild" id="jmemorize.core/Category#addCategoryChild(Ljmemorize.core.Category;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addObserver" id="jmemorize.core/Category#addObserver(Ljmemorize.core.CategoryObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cloneWithoutProgress" id="jmemorize.core/Category#cloneWithoutProgress()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="contains" id="jmemorize.core/Category#contains(Ljmemorize.core.Category;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fireCardEvent" id="jmemorize.core/Category#fireCardEvent(ILjmemorize.core.Card;Ljmemorize.core.Category;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="fireCategoryEvent" id="jmemorize.core/Category#fireCategoryEvent(ILjmemorize.core.Category;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCards" id="jmemorize.core/Category#getCards(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCards" id="jmemorize.core/Category#getCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getChildCategories" id="jmemorize.core/Category#getChildCategories()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getChildCategory" id="jmemorize.core/Category#getChildCategory(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDepth" id="jmemorize.core/Category#getDepth()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getExpiredCards" id="jmemorize.core/Category#getExpiredCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getExpiredCards" id="jmemorize.core/Category#getExpiredCards(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLearnableCards" id="jmemorize.core/Category#getLearnableCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLearnableCards" id="jmemorize.core/Category#getLearnableCards(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLearnedCards" id="jmemorize.core/Category#getLearnedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLearnedCards" id="jmemorize.core/Category#getLearnedCards(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLocalCards" id="jmemorize.core/Category#getLocalCards(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLocalCards" id="jmemorize.core/Category#getLocalCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="jmemorize.core/Category#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumberOfDecks" id="jmemorize.core/Category#getNumberOfDecks()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getParent" id="jmemorize.core/Category#getParent()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPath" id="jmemorize.core/Category#getPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSubtreeList" id="jmemorize.core/Category#getSubtreeList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getUnlearnedCards" id="jmemorize.core/Category#getUnlearnedCards()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveCard" id="jmemorize.core/Category#moveCard(Ljmemorize.core.Card;Ljmemorize.core.Category;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="raiseCardLevel" id="jmemorize.core/Category#raiseCardLevel(Ljmemorize.core.Card;Ljava.util.Date;Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reappendCard" id="jmemorize.core/Category#reappendCard(Ljmemorize.core.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remove" id="jmemorize.core/Category#remove()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeCard" id="jmemorize.core/Category#removeCard(Ljmemorize.core.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeObserver" id="jmemorize.core/Category#removeObserver(Ljmemorize.core.CategoryObserver;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetCard" id="jmemorize.core/Category#resetCard(Ljmemorize.core.Card;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetCardLevel" id="jmemorize.core/Category#resetCardLevel(Ljmemorize.core.Card;Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setName" id="jmemorize.core/Category#setName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="jmemorize.core/Category#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.11/@sourceConnections.0 //@children.12/@sourceConnections.0" autoLocated="true" id="jmemorize.core/Events&lt;-jmemorize.core/Category" source="//@children.9" target="//@children.10" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="73,161" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.9/@sourceConnections.0" name="Events" location="446,50" size="147,161" id="jmemorize.core/Events" runTimeClassModel="rEMOVED_EVENT,mOVED_EVENT,eDITED_EVENT,dECK_EVENT,eXPIRED_EVENT,aDDED_EVENT">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="aDDED_EVENT" id="jmemorize.core/Events#aDDED_EVENT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dECK_EVENT" id="jmemorize.core/Events#dECK_EVENT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eDITED_EVENT" id="jmemorize.core/Events#eDITED_EVENT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="eXPIRED_EVENT" id="jmemorize.core/Events#eXPIRED_EVENT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mOVED_EVENT" id="jmemorize.core/Events#mOVED_EVENT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rEMOVED_EVENT" id="jmemorize.core/Events#rEMOVED_EVENT"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Card" location="626,261" size="177,733" id="jmemorize.core/Card" runTimeClassModel="Card(Ljava.util.Date;Ljmemorize.core.CardSide;Ljmemorize.core.CardSide;),getBackSide(),getDateCreated(),isExpired(),setSides(Ljmemorize.core.FormattedText;Ljmemorize.core.FormattedText;),incrementLearnedAmount(Z),getFrontSide(),setDateTouched(Ljava.util.Date;),getCategory(),resetStats(),getLearnedAmount(Z),getDateModified(),cLONE_DATES,isUnlearned(),toString(),incStats(II),isLearned(),getLevel(),resetLearnedAmount(),setSides(Ljava.lang.String;Ljava.lang.String;),setLearnedAmount(ZI),Card(Ljmemorize.core.FormattedText;Ljmemorize.core.FormattedText;),getDateExpired(),setDateExpired(Ljava.util.Date;),getDateTested(),oNE_DAY,getTestsPassed(),getDateTouched(),Card(Ljava.util.Date;Ljmemorize.core.FormattedText;Ljmemorize.core.FormattedText;),setDateModified(Ljava.util.Date;),setDateTested(Ljava.util.Date;),Card(Ljava.util.Date;Ljava.lang.String;Ljava.lang.String;),clone(),getPassRatio(),Card(Ljava.lang.String;Ljava.lang.String;),getTestsTotal(),setDateCreated(Ljava.util.Date;),cloneWithoutProgress()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="cLONE_DATES" id="jmemorize.core/Card#cLONE_DATES"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="oNE_DAY" id="jmemorize.core/Card#oNE_DAY"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="154,648">
+      <children xsi:type="editmodel:MethodEditModel" name="Card" id="jmemorize.core/Card#Card(Ljava.util.Date;Ljmemorize.core.CardSide;Ljmemorize.core.CardSide;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Card" id="jmemorize.core/Card#Card(Ljava.util.Date;Ljmemorize.core.FormattedText;Ljmemorize.core.FormattedText;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Card" id="jmemorize.core/Card#Card(Ljava.util.Date;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Card" id="jmemorize.core/Card#Card(Ljmemorize.core.FormattedText;Ljmemorize.core.FormattedText;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Card" id="jmemorize.core/Card#Card(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clone" id="jmemorize.core/Card#clone()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="cloneWithoutProgress" id="jmemorize.core/Card#cloneWithoutProgress()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBackSide" id="jmemorize.core/Card#getBackSide()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCategory" id="jmemorize.core/Card#getCategory()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDateCreated" id="jmemorize.core/Card#getDateCreated()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDateExpired" id="jmemorize.core/Card#getDateExpired()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDateModified" id="jmemorize.core/Card#getDateModified()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDateTested" id="jmemorize.core/Card#getDateTested()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDateTouched" id="jmemorize.core/Card#getDateTouched()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFrontSide" id="jmemorize.core/Card#getFrontSide()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLearnedAmount" id="jmemorize.core/Card#getLearnedAmount(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLevel" id="jmemorize.core/Card#getLevel()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPassRatio" id="jmemorize.core/Card#getPassRatio()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTestsPassed" id="jmemorize.core/Card#getTestsPassed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTestsTotal" id="jmemorize.core/Card#getTestsTotal()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incStats" id="jmemorize.core/Card#incStats(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="incrementLearnedAmount" id="jmemorize.core/Card#incrementLearnedAmount(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isExpired" id="jmemorize.core/Card#isExpired()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isLearned" id="jmemorize.core/Card#isLearned()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isUnlearned" id="jmemorize.core/Card#isUnlearned()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetLearnedAmount" id="jmemorize.core/Card#resetLearnedAmount()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetStats" id="jmemorize.core/Card#resetStats()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDateCreated" id="jmemorize.core/Card#setDateCreated(Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDateExpired" id="jmemorize.core/Card#setDateExpired(Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDateModified" id="jmemorize.core/Card#setDateModified(Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDateTested" id="jmemorize.core/Card#setDateTested(Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setDateTouched" id="jmemorize.core/Card#setDateTouched(Ljava.util.Date;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setLearnedAmount" id="jmemorize.core/Card#setLearnedAmount(ZI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSides" id="jmemorize.core/Card#setSides(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSides" id="jmemorize.core/Card#setSides(Ljmemorize.core.FormattedText;Ljmemorize.core.FormattedText;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="jmemorize.core/Card#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jmemorize.core/Events&lt;-jmemorize.core/Card" source="//@children.11" target="//@children.9/@sourceConnections.0" targetEnd="//@children.11/@sourceConnections.0/@children.1" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.8/@sourceConnections.1" name="CategoryObserver" location="251,261" size="156,99" id="jmemorize.core/CategoryObserver" runTimeClassModel="onCardEvent(ILjmemorize.core.Card;Ljmemorize.core.Category;I),onCategoryEvent(ILjmemorize.core.Category;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,36">
+      <children xsi:type="editmodel:MethodEditModel" name="onCardEvent" id="jmemorize.core/CategoryObserver#onCardEvent(ILjmemorize.core.Card;Ljmemorize.core.Category;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onCategoryEvent" id="jmemorize.core/CategoryObserver#onCategoryEvent(ILjmemorize.core.Category;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="jmemorize.core/Events&lt;-jmemorize.core/CategoryObserver" source="//@children.12" target="//@children.9/@sourceConnections.0" targetEnd="//@children.12/@sourceConnections.0/@children.1" sourceEnd="//@children.12/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
